@@ -1,13 +1,13 @@
-
+name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  check-bats-version:
+  runs-gem:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: ruby/setup-ruby@v1
         with:
-          node-version: '20'
-      - run: npm install -g bats
-      - run: bats -v
+          ruby-version: '3.3' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - runs: rundoc 
