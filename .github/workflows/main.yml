@@ -12,5 +12,5 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - run: ls
       - run: ls vendor
-      - run: ls vendor/bundle
+      - run: ls vendor/bundle/ruby
       # - run: bin/rundoc
