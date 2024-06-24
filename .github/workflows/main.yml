@@ -16,4 +16,9 @@ jobs:
           bundler-cache: false # runs 'bundle install' and caches installed gems automatically
       - run: gem install rundoc
       - run: rundoc build --path source.md
+      - run: cp project/
       - uses: stefanzweifel/git-auto-commit-action@v5
+        with: 
+          commit_message: running rundoc
+          branch: ${{ github.event.repository.updated_at }}
+          create_branch: true
