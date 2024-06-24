@@ -9,7 +9,7 @@ testing!
 
 another code block!
 ```
-:::>> $ echo "gonna commit to another branch"
+:::>> $ date 
 ```
 
-!
+yay!
