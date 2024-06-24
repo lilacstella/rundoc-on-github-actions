@@ -17,8 +17,9 @@ jobs:
       - run: gem install rundoc
       - run: rundoc build --path source.md
       - run: ls
+      - run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
       - uses: stefanzweifel/git-auto-commit-action@v5
         with: 
           commit_message: running rundoc
-          branch: ${{ github.event.head_commit.timestamp }}
+          branch: $NOW
           create_branch: true
