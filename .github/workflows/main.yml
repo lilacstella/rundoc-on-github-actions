@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: run-rundoc
 run-name: running rundoc on tutorials
 on: [push, workflow_dispatch]
 jobs:
