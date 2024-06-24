@@ -1,5 +1,5 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: running rundoc on tutorials
 on: [push, workflow_dispatch]
 jobs:
   rundoc:
@@ -10,6 +10,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3' # Not needed with a .ruby-version file
