@@ -21,7 +21,7 @@ jobs:
       - run: ls
       # to change branch name, change it inside the quotes after + inside the single quote string
       # - run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
-      - run: echo "NOW=$(date +'temp-$H%I')"
+      - run: echo "NOW=$(date +'rundoc/temp-%H%I')"
       - uses: stefanzweifel/git-auto-commit-action@v5
         with: 
           commit_message: running rundoc
