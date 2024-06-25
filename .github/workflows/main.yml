@@ -17,7 +17,6 @@ jobs:
           ruby-version: '3.3' # Not needed with a .ruby-version file
           bundler-cache: false # runs 'bundle install' and caches installed gems automatically
       - run: gem install rundoc
-      - run: rm -r project
       - run: rundoc build --path source.md
       - run: cat project/README.md
       # to change branch name, change it inside the quotes after + inside the single quote string
