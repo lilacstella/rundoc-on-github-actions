@@ -1,6 +1,10 @@
 name: run-rundoc
 run-name: running rundoc on tutorials
-on: [push, workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 jobs:
   rundoc:
     runs-on: ubuntu-latest
@@ -18,7 +22,7 @@ jobs:
           bundler-cache: false # runs 'bundle install' and caches installed gems automatically
       - run: gem install rundoc
       - run: rundoc build --path source.md
-      - run: ls
+      - run: cat project/README.md
       # to change branch name, change it inside the quotes after + inside the single quote string
       # - run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
       - run: echo "NOW=$(date +'rundoc/temp-%H%M')" >> $GITHUB_ENV
