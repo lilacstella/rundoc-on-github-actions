@@ -1,13 +1,10 @@
-testing!
+this should execute
 
 ```
-:::>> $ echo "hi"
-:::>> $ echo "hello" > hello.txt
-:::>> $ cat hello.txt
+:::>> $ echo "A"
 ```
 
-
-another code block!
+this doesn't execute
 ```
-:::>> $ echo "gonna commit to another branch"
+:::>> $ echo "B"
 ```
