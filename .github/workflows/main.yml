@@ -18,11 +18,14 @@ jobs:
           ruby-version: '3.3' # Not needed with a .ruby-version file
           bundler-cache: false # runs 'bundle install' and caches installed gems automatically
       - run: gem install rundoc
+      # configs here for the path of what we want to generate
       - run: rundoc build --path source.md
+      # and then here move and rename README.md to the appropriate place
       - run: cat project/README.md
       # to change branch name, change it inside the quotes after + inside the single quote string
       # - run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
       - run: echo "NOW=$(date +'rundoc/temp-%H%M')" >> $GITHUB_ENV
+      - run: echo "HUMAN_DATE=$(date + 'update tutorials on %Y %b %d')" >> $GITHUB_ENV
       # - uses: stefanzweifel/git-auto-commit-action@v5
       #   with: 
       #     commit_message: running rundoc
@@ -33,4 +36,6 @@ jobs:
         with:
           branch: ${{ env.NOW }}
           base: main
+          commit-message: run rundoc
+          title: ${{ env.HUMAN_DATE }}
 
