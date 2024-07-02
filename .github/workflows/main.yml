@@ -1,9 +1,6 @@
 name: run-rundoc
 run-name: running rundoc on tutorials
 on: 
-  push:
-    branches:
-      - main
   schedule:
     # This schedule triggers the workflow at 00:00 every Monday
     - cron: '0 0 * * 1'
