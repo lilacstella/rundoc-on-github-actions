@@ -1,0 +1,14 @@
+test/fixtures/*/project/
+test/fixtures/*/tmp/
+test/fixtures/*/myapp/
+
+test/fixtures/*/*/project/
+test/fixtures/*/*/tmp/
+test/fixtures/*/*/myapp/
+
+
+*.gem
+
+.DS_Store
+Gemfile.lock
+.env

@@ -1,0 +1,19 @@
+current directory: /Users/runner/work/rundoc-on-github-actions/rundoc-on-github-actions/.rundoc-workspace/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+/Users/runner/hostedtoolcache/Ruby/3.3.3/x64/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/runner/work/rundoc-on-github-actions/rundoc-on-github-actions/.rundoc-workspace/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240708-3018-72e1dz sitelibdir\=./.gem.20240708-3018-72e1dz clean
+
+current directory: /Users/runner/work/rundoc-on-github-actions/rundoc-on-github-actions/.rundoc-workspace/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240708-3018-72e1dz sitelibdir\=./.gem.20240708-3018-72e1dz
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/runner/work/rundoc-on-github-actions/rundoc-on-github-actions/.rundoc-workspace/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240708-3018-72e1dz sitelibdir\=./.gem.20240708-3018-72e1dz install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240708-3018-72e1dz/racc
+
+current directory: /Users/runner/work/rundoc-on-github-actions/rundoc-on-github-actions/.rundoc-workspace/vendor/bundle/ruby/3.3.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240708-3018-72e1dz sitelibdir\=./.gem.20240708-3018-72e1dz clean
