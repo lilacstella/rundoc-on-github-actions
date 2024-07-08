@@ -1,0 +1,42 @@
+[33mWarning:[0m Treating docker as a formula. For the cask, use homebrew/cask/docker or specify the `--cask` flag.
+::warning::Treating docker as a formula. For the cask, use homebrew/cask/docker or specify the `--cask` flag.
+[33mWarning:[0m qemu 9.0.1 is already installed and up-to-date.
+To reinstall 9.0.1, run:
+  brew reinstall qemu
+::warning::qemu 9.0.1 is already installed and up-to-date.%0ATo reinstall 9.0.1, run:%0A  brew reinstall qemu%0A
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/docker/manifests/27.0.3[0m
+[32m==>[0m [1mFetching dependencies for docker: [32mdocker-completion[39m[0m
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/docker-completion/manifests/27.0.3[0m
+[32m==>[0m [1mFetching [32mdocker-completion[39m[0m
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/docker-completion/blobs/sha256:8ae0dd49970e812a8f3e1188e232c5002854c5ba8bb3a2e8d86183166cfcfca9[0m
+[32m==>[0m [1mFetching [32mdocker[39m[0m
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:1194efb9c9324bc12f5ead867ad88a8ae18076764fa90b9df2e0846aac74c446[0m
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/docker-compose/manifests/2.28.1[0m
+[32m==>[0m [1mFetching [32mdocker-compose[39m[0m
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:8d4b1db8dc5a4fe3fe5ef71c0be61c727144f493416255ec15ed7910934b323c[0m
+[32m==>[0m [1mInstalling dependencies for docker: [32mdocker-completion[39m[0m
+[32m==>[0m [1mInstalling docker dependency: [32mdocker-completion[39m[0m
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/docker-completion/manifests/27.0.3[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/b0ea52f1610910b1e052c8f8f92f23ed057333241cf4fb30a3841eae7db7a41a--docker-completion-27.0.3.bottle_manifest.json
+[34m==>[0m [1mPouring docker-completion--27.0.3.all.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/docker-completion/27.0.3: 10 files, 342.2KB
+[32m==>[0m [1mInstalling [32mdocker[39m[0m
+[34m==>[0m [1mPouring docker--27.0.3.monterey.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/docker/27.0.3: 14 files, 25.6MB
+[34m==>[0m [1mPouring docker-compose--2.28.1.monterey.bottle.tar.gz[0m
+[34m==>[0m [1mCaveats[0m
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/usr/local/lib/docker/cli-plugins"
+  ]
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/docker-compose/2.28.1: 8 files, 53.7MB
+[33mWarning:[0m HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK is set: not checking for outdated
+dependents or dependents with broken linkage!
+::warning::HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK is set: not checking for outdated%0Adependents or dependents with broken linkage!%0A
+[32m==>[0m [1mCaveats[0m
+[34m==>[0m [1mdocker-compose[0m
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/usr/local/lib/docker/cli-plugins"
+  ]
