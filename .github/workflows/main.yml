@@ -24,11 +24,10 @@ jobs:
           bundler-cache: true # do run 'bundle install' and cache
           working-directory: .rundoc-workspace
       # [CONFIG] here for the path of what we want to generate
-      - run: ls
-      - run: cd .rundoc-workspace
-      - run: ls
       - run: bundle exec rundoc build --path ../tutorials/src/ruby/rundoc.md
+        working-directory: .rundoc-workspace
       # [CONFIG] then here move and rename README.md to the appropriate place
+      - run: ls
       - run: cat project/README.md
       - run: echo "NOW=$(date +'rundoc/%Y-%m-%d')" >> $GITHUB_ENV
       - run: echo "HUMAN_DATE=$(date +'update tutorials - %Y %b %d')" >> $GITHUB_ENV
