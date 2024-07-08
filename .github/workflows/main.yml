@@ -23,8 +23,9 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true # do run 'bundle install' and cache
           working-directory: .rundoc-workspace
-      - uses: docker-practice/actions-setup-docker@master
-        timeout-minutes: 12
+      # - uses: docker-practice/actions-setup-docker@master
+        # timeout-minutes: 12
+      - uses: buildpacks/github-actions/setup-pack@v5.7.1
       # [CONFIG] here for the path of what we want to generate
       - run: bundle exec rundoc build --path ../tutorials/src/ruby/rundoc.md
         working-directory: .rundoc-workspace
