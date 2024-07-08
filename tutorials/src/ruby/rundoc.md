@@ -32,6 +32,7 @@ end
 :::>> rundoc.require "../shared/pack_build.md"
 ```
 
+<!-- 
 ```
 :::>> rundoc.require "./what_is_pack_build.md"
 ```
@@ -54,4 +55,5 @@ end
 
 ```
 :::>> rundoc.require "../shared/procfile.md"
-```
+``` 
+-->
