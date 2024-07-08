@@ -30,7 +30,7 @@ jobs:
       # [CONFIG] then here move and rename README.md to the appropriate place
       - run: ls
       - run: cat project/README.md
-      - run: echo "NOW=$(date +'rundoc-linux/%Y-%m-%d-%H:%M:%S')" >> $GITHUB_ENV
+      - run: echo "NOW=$(date +'rundoc-linux/%s')" >> $GITHUB_ENV
       - run: echo "HUMAN_DATE=$(date +'Linux update tutorials - %Y %b %d')" >> $GITHUB_ENV
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
@@ -63,7 +63,7 @@ jobs:
       # [CONFIG] then here move and rename README.md to the appropriate place
       - run: ls
       - run: cat project/README.md
-      - run: echo "NOW=$(date +'rundoc-macos/%Y-%m-%d-%H:%M:%S')" >> $GITHUB_ENV
+      - run: echo "NOW=$(date +'rundoc-macos/%s')" >> $GITHUB_ENV
       - run: echo "HUMAN_DATE=$(date +'MacOS update tutorials - %Y %b %d')" >> $GITHUB_ENV
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
