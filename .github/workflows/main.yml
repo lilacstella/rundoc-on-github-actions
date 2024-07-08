@@ -28,8 +28,8 @@ jobs:
       - run: bundle exec rundoc build --path ../tutorials/src/ruby/rundoc.md
         working-directory: .rundoc-workspace
         continue-on-error: true
-      - run: ls tutorials/src/ruby/tmp
-      - run: cat tutorials/src/ruby/tmp/build_output.txt
+      # - run: ls tutorials/src/ruby/tmp
+      # - run: cat tutorials/src/ruby/tmp/build_output.txt
       # [CONFIG] then here move and rename README.md to the appropriate place
       - run: ls
         working-directory: tutorials/src/ruby/
