@@ -1,1 +1,6 @@
 .idea/
+
+# rundoc github action
+.rundoc-workspace
+default.profraw
+docker.rb
