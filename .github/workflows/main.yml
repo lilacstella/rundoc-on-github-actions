@@ -29,8 +29,7 @@ jobs:
         working-directory: .rundoc-workspace
       # [CONFIG] then here move and rename README.md to the appropriate place
       - run: ls
-      - run: ls
-        working-directory: .rundoc-workspace
+        working-directory: tutorials/src/ruby/
       - run: echo "NOW=$(date +'rundoc-linux/%s')" >> $GITHUB_ENV
       - run: echo "HUMAN_DATE=$(date +'Linux update tutorials - %Y %b %d')" >> $GITHUB_ENV
       - name: Create Pull Request
