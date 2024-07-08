@@ -20,6 +20,7 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true # do run 'bundle install' and cache
+          working-directory: .rundoc-workspace
       # [CONFIG] here for the path of what we want to generate
       - run: bundle exec rundoc build --path ../tutorials/src/ruby/rundoc.md
       # [CONFIG] then here move and rename README.md to the appropriate place
