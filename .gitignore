@@ -4,3 +4,5 @@
 .rundoc-workspace
 default.profraw
 docker.rb
+install.log
+colima-Darwin-x86_64
