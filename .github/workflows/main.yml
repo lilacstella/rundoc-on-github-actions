@@ -1,6 +1,9 @@
 name: run-rundoc
 run-name: running rundoc on tutorials
-on: 
+on:
+  push:
+    branches:
+      - tutorials
   schedule:
     # This schedule triggers the workflow at 00:00 every Monday
     - cron: '0 0 * * 1'
@@ -21,7 +24,9 @@ jobs:
           bundler-cache: true # do run 'bundle install' and cache
           working-directory: .rundoc-workspace
       # [CONFIG] here for the path of what we want to generate
+      - run: ls
       - run: cd .rundoc-workspace
+      - run: ls
       - run: bundle exec rundoc build --path ../tutorials/src/ruby/rundoc.md
       # [CONFIG] then here move and rename README.md to the appropriate place
       - run: cat project/README.md
