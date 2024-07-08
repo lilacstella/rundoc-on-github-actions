@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 jobs:
   rundoc:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     permissions:
       contents: write
       pull-requests: write
