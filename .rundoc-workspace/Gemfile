@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "rundoc" 
+gem 'rundoc', :git => "https://github.com/zombocom/rundoc.git", :branch => "schneems/print-while-running"
