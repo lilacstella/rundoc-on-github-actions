@@ -21,7 +21,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: false # do run 'bundle install' and cache
+          bundler-cache: true # do run 'bundle install' and cache
           cache-version: 8684
           working-directory: .rundoc-workspace
       # [CONFIG] here for the path of what we want to generate
