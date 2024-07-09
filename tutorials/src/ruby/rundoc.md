@@ -1,4 +1,4 @@
-```
+
 :::-- rundoc.configure
 Rundoc.configure do |config|
   config.filter_sensitive(
@@ -6,7 +6,7 @@ Rundoc.configure do |config|
       "assets/images/ruby-getting-started-screenshot.png"
   )
 end
-```
+
 
 ```
 :::>> rundoc.require "./intro.md"

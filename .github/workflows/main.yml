@@ -1,9 +1,9 @@
 name: run-rundoc
 run-name: running rundoc on tutorials
 on:
-  push:
-    branches:
-      - tutorials
+  # push:
+  #   branches:
+  #     - tutorials
   schedule:
     # This schedule triggers the workflow at 00:00 every Monday
     - cron: '0 0 * * 1'
@@ -28,6 +28,10 @@ jobs:
       - run: bundle exec rundoc build --path ../tutorials/src/ruby/rundoc.md
         working-directory: .rundoc-workspace
         continue-on-error: true
+      - run: |
+          rm -rf ruby-getting-started
+          rm copied-rundoc.md
+        working-directory: tutorials/src/ruby/project
       # [CONFIG] then here move and rename README.md to the appropriate place
       - run: echo "NOW=$(date +'rundoc-linux/%s')" >> $GITHUB_ENV
       - run: echo "HUMAN_DATE=$(date +'Linux update tutorials - %Y %b %d')" >> $GITHUB_ENV
