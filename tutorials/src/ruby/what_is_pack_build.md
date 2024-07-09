@@ -9,6 +9,7 @@ When you run `pack build` with a builder, each buildpack runs a detection script
 ```
 :::>> $ cat build_output.txt
 :::>> $ ls
+:::-> $ grep DETECTING -A5 ./build_output.txt
 ```
 
 After the detect phase, each buildpack will execute. Buildpacks can inspect your project, install files to disk, run commands, write environment variables, [and more](https://buildpacks.io/docs/for-buildpack-authors/). You can see some examples of that in the output above. For example, the Ruby buildpack installs dependencies from the `Gemfile` automatically:
