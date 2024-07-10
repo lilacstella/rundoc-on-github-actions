@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/zombocom/rundoc.git
-  revision: 9655bb58d8633df21c29d8494c7c862b071ea7aa
+  revision: c67873e0f8209d436edfaf541d0015a6f7bba8bd
   branch: schneems/print-while-running
   specs:
     rundoc (2.0.1)
