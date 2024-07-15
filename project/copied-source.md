@@ -11,3 +11,9 @@ another code block!
 ```
 
 yay!
+
+```
+:::>> website.visit(name: "newjeans", url: "https://shop.newjeans-official.us/")
+
+:::>> website.screenshot(name: "newjeans")
+```
