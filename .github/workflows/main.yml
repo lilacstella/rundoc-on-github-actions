@@ -25,9 +25,12 @@ jobs:
       - run: bundle exec rundoc ../tutorials/src/ruby/rundoc.md --on-success-dir ../tutorials/output --on-failure-dir ../tutorials/fail --force
         working-directory: .rundoc-workspace
         continue-on-error: true
+      - run: rm -rf ruby-getting-started
+        working-directory: tutorials/output
+        continue-on-error: true
       # [CONFIG] then here move and rename README.md to the appropriate place
       - run: echo "NOW=$(date +'rundoc-linux/%s')" >> $GITHUB_ENV
-      - run: echo "HUMAN_DATE=$(date +'Linux update tutorials - %Y %b %d')" >> $GITHUB_ENV
+      - run: echo "HUMAN_DATE=$(date +'update tutorials - %Y %b %d')" >> $GITHUB_ENV
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
