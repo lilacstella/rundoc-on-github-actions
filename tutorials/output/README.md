@@ -135,501 +135,501 @@ Now build an image named `my-image-name` by executing the heroku builder against
 
 ```
 $ pack build my-image-name --path .
-[2024-07-23 15:10:08] 22: Pulling from heroku/builder
-[2024-07-23 15:10:08] 9b857f539cb1: Pulling fs layer
-[2024-07-23 15:10:08] 7af71cb397b9: Pulling fs layer
-[2024-07-23 15:10:08] 0dea8f52227b: Pulling fs layer
-[2024-07-23 15:10:08] 881b32f67d5f: Pulling fs layer
-[2024-07-23 15:10:08] 182afb1fe5dc: Pulling fs layer
-[2024-07-23 15:10:08] eef3e9640d29: Pulling fs layer
-[2024-07-23 15:10:08] b7df828c981a: Pulling fs layer
-[2024-07-23 15:10:08] 05866839ed8e: Pulling fs layer
-[2024-07-23 15:10:08] 1e4c68ff7df8: Pulling fs layer
-[2024-07-23 15:10:08] aac7f4f5dfbd: Pulling fs layer
-[2024-07-23 15:10:08] 7ad8b309ac9a: Pulling fs layer
-[2024-07-23 15:10:08] 47237141b1fe: Pulling fs layer
-[2024-07-23 15:10:08] 08d359555ab8: Pulling fs layer
-[2024-07-23 15:10:08] 42bb88b3690e: Pulling fs layer
-[2024-07-23 15:10:08] a2e8d3270011: Pulling fs layer
-[2024-07-23 15:10:08] 61aa9f9f5090: Pulling fs layer
-[2024-07-23 15:10:08] 57e63866fe46: Pulling fs layer
-[2024-07-23 15:10:08] 454745ed8d31: Pulling fs layer
-[2024-07-23 15:10:08] c6e4e9583515: Pulling fs layer
-[2024-07-23 15:10:08] 464eddc5e83b: Pulling fs layer
-[2024-07-23 15:10:08] 2c910edb2a09: Pulling fs layer
-[2024-07-23 15:10:08] b886be5769bb: Pulling fs layer
-[2024-07-23 15:10:08] c65710a064c1: Pulling fs layer
-[2024-07-23 15:10:08] a8aa3cd86a13: Pulling fs layer
-[2024-07-23 15:10:08] 0948dd96497c: Pulling fs layer
-[2024-07-23 15:10:08] e90c3615a082: Pulling fs layer
-[2024-07-23 15:10:08] dcc7df304966: Pulling fs layer
-[2024-07-23 15:10:08] b9f6de2761b9: Pulling fs layer
-[2024-07-23 15:10:08] 4f4fb700ef54: Pulling fs layer
-[2024-07-23 15:10:08] 61aa9f9f5090: Waiting
-[2024-07-23 15:10:08] 57e63866fe46: Waiting
-[2024-07-23 15:10:08] 454745ed8d31: Waiting
-[2024-07-23 15:10:08] 881b32f67d5f: Waiting
-[2024-07-23 15:10:08] 182afb1fe5dc: Waiting
-[2024-07-23 15:10:08] c6e4e9583515: Waiting
-[2024-07-23 15:10:08] 464eddc5e83b: Waiting
-[2024-07-23 15:10:08] eef3e9640d29: Waiting
-[2024-07-23 15:10:08] b7df828c981a: Waiting
-[2024-07-23 15:10:08] 2c910edb2a09: Waiting
-[2024-07-23 15:10:08] b886be5769bb: Waiting
-[2024-07-23 15:10:08] 05866839ed8e: Waiting
-[2024-07-23 15:10:08] c65710a064c1: Waiting
-[2024-07-23 15:10:08] 1e4c68ff7df8: Waiting
-[2024-07-23 15:10:08] a8aa3cd86a13: Waiting
-[2024-07-23 15:10:08] aac7f4f5dfbd: Waiting
-[2024-07-23 15:10:08] 0948dd96497c: Waiting
-[2024-07-23 15:10:08] 7ad8b309ac9a: Waiting
-[2024-07-23 15:10:08] e90c3615a082: Waiting
-[2024-07-23 15:10:08] 47237141b1fe: Waiting
-[2024-07-23 15:10:08] dcc7df304966: Waiting
-[2024-07-23 15:10:08] b9f6de2761b9: Waiting
-[2024-07-23 15:10:08] 08d359555ab8: Waiting
-[2024-07-23 15:10:08] 42bb88b3690e: Waiting
-[2024-07-23 15:10:08] 4f4fb700ef54: Waiting
-[2024-07-23 15:10:08] a2e8d3270011: Waiting
-[2024-07-23 15:10:09] 9b857f539cb1: Download complete
-[2024-07-23 15:10:09] 881b32f67d5f: Verifying Checksum
-[2024-07-23 15:10:09] 881b32f67d5f: Download complete
-[2024-07-23 15:10:09] 182afb1fe5dc: Verifying Checksum
-[2024-07-23 15:10:09] 182afb1fe5dc: Download complete
-[2024-07-23 15:10:09] eef3e9640d29: Verifying Checksum
-[2024-07-23 15:10:09] eef3e9640d29: Download complete
-[2024-07-23 15:10:09] b7df828c981a: Verifying Checksum
-[2024-07-23 15:10:09] b7df828c981a: Download complete
-[2024-07-23 15:10:09] 05866839ed8e: Verifying Checksum
-[2024-07-23 15:10:09] 05866839ed8e: Download complete
-[2024-07-23 15:10:09] 1e4c68ff7df8: Download complete
-[2024-07-23 15:10:10] aac7f4f5dfbd: Verifying Checksum
-[2024-07-23 15:10:10] aac7f4f5dfbd: Download complete
-[2024-07-23 15:10:10] 7ad8b309ac9a: Verifying Checksum
-[2024-07-23 15:10:10] 7ad8b309ac9a: Download complete
-[2024-07-23 15:10:10] 47237141b1fe: Download complete
-[2024-07-23 15:10:10] 9b857f539cb1: Pull complete
-[2024-07-23 15:10:10] 08d359555ab8: Verifying Checksum
-[2024-07-23 15:10:10] 08d359555ab8: Download complete
-[2024-07-23 15:10:10] 42bb88b3690e: Download complete
-[2024-07-23 15:10:10] a2e8d3270011: Verifying Checksum
-[2024-07-23 15:10:10] a2e8d3270011: Download complete
-[2024-07-23 15:10:11] 61aa9f9f5090: Verifying Checksum
-[2024-07-23 15:10:11] 61aa9f9f5090: Download complete
-[2024-07-23 15:10:11] 0dea8f52227b: Verifying Checksum
-[2024-07-23 15:10:11] 0dea8f52227b: Download complete
-[2024-07-23 15:10:11] 57e63866fe46: Verifying Checksum
-[2024-07-23 15:10:11] 57e63866fe46: Download complete
-[2024-07-23 15:10:11] 454745ed8d31: Verifying Checksum
-[2024-07-23 15:10:11] 454745ed8d31: Download complete
-[2024-07-23 15:10:11] c6e4e9583515: Download complete
-[2024-07-23 15:10:11] 464eddc5e83b: Verifying Checksum
-[2024-07-23 15:10:11] 464eddc5e83b: Download complete
-[2024-07-23 15:10:11] 2c910edb2a09: Verifying Checksum
-[2024-07-23 15:10:11] 2c910edb2a09: Download complete
-[2024-07-23 15:10:11] b886be5769bb: Verifying Checksum
-[2024-07-23 15:10:11] b886be5769bb: Download complete
-[2024-07-23 15:10:11] c65710a064c1: Download complete
-[2024-07-23 15:10:11] a8aa3cd86a13: Verifying Checksum
-[2024-07-23 15:10:11] a8aa3cd86a13: Download complete
-[2024-07-23 15:10:11] e90c3615a082: Verifying Checksum
-[2024-07-23 15:10:11] e90c3615a082: Download complete
-[2024-07-23 15:10:11] 0948dd96497c: Download complete
-[2024-07-23 15:10:12] dcc7df304966: Verifying Checksum
-[2024-07-23 15:10:12] dcc7df304966: Download complete
-[2024-07-23 15:10:12] b9f6de2761b9: Verifying Checksum
-[2024-07-23 15:10:12] b9f6de2761b9: Download complete
-[2024-07-23 15:10:12] 4f4fb700ef54: Verifying Checksum
-[2024-07-23 15:10:12] 4f4fb700ef54: Download complete
-[2024-07-23 15:10:12] 7af71cb397b9: Verifying Checksum
-[2024-07-23 15:10:12] 7af71cb397b9: Download complete
-[2024-07-23 15:10:20] 7af71cb397b9: Pull complete
-[2024-07-23 15:10:24] 0dea8f52227b: Pull complete
-[2024-07-23 15:10:25] 881b32f67d5f: Pull complete
-[2024-07-23 15:10:25] 182afb1fe5dc: Pull complete
-[2024-07-23 15:10:25] eef3e9640d29: Pull complete
-[2024-07-23 15:10:25] b7df828c981a: Pull complete
-[2024-07-23 15:10:25] 05866839ed8e: Pull complete
-[2024-07-23 15:10:25] 1e4c68ff7df8: Pull complete
-[2024-07-23 15:10:25] aac7f4f5dfbd: Pull complete
-[2024-07-23 15:10:25] 7ad8b309ac9a: Pull complete
-[2024-07-23 15:10:25] 47237141b1fe: Pull complete
-[2024-07-23 15:10:26] 08d359555ab8: Pull complete
-[2024-07-23 15:10:26] 42bb88b3690e: Pull complete
-[2024-07-23 15:10:26] a2e8d3270011: Pull complete
-[2024-07-23 15:10:26] 61aa9f9f5090: Pull complete
-[2024-07-23 15:10:26] 57e63866fe46: Pull complete
-[2024-07-23 15:10:26] 454745ed8d31: Pull complete
-[2024-07-23 15:10:26] c6e4e9583515: Pull complete
-[2024-07-23 15:10:26] 464eddc5e83b: Pull complete
-[2024-07-23 15:10:26] 2c910edb2a09: Pull complete
-[2024-07-23 15:10:26] b886be5769bb: Pull complete
-[2024-07-23 15:10:26] c65710a064c1: Pull complete
-[2024-07-23 15:10:26] a8aa3cd86a13: Pull complete
-[2024-07-23 15:10:26] 0948dd96497c: Pull complete
-[2024-07-23 15:10:26] e90c3615a082: Pull complete
-[2024-07-23 15:10:26] dcc7df304966: Pull complete
-[2024-07-23 15:10:26] b9f6de2761b9: Pull complete
-[2024-07-23 15:10:26] 4f4fb700ef54: Pull complete
-[2024-07-23 15:10:26] Digest: sha256:04585c14ce36c2e70c9c1b60150b3c556f7cf5cebdc60ce686d2100061565601
-[2024-07-23 15:10:26] Status: Downloaded newer image for heroku/builder:22
-[2024-07-23 15:10:26] 22-cnb: Pulling from heroku/heroku
-[2024-07-23 15:10:26] 3713021b0277: Already exists
-[2024-07-23 15:10:26] 7af71cb397b9: Already exists
-[2024-07-23 15:10:26] a60a4685c8e9: Pulling fs layer
-[2024-07-23 15:10:26] a60a4685c8e9: Verifying Checksum
-[2024-07-23 15:10:26] a60a4685c8e9: Download complete
-[2024-07-23 15:10:26] a60a4685c8e9: Pull complete
-[2024-07-23 15:10:26] Digest: sha256:d7476bdc16c636466e7842d2543274880d68e624cabca0a9de8e0d08009d529e
-[2024-07-23 15:10:26] Status: Downloaded newer image for heroku/heroku:22-cnb
-[2024-07-23 15:10:27] 0.20.0: Pulling from buildpacksio/lifecycle
-[2024-07-23 15:10:27] f531499c6b73: Pulling fs layer
-[2024-07-23 15:10:27] e8d9a567199d: Pulling fs layer
-[2024-07-23 15:10:27] 058cf3d8c2ba: Pulling fs layer
-[2024-07-23 15:10:27] b6824ed73363: Pulling fs layer
-[2024-07-23 15:10:27] 7c12895b777b: Pulling fs layer
-[2024-07-23 15:10:27] 33e068de2649: Pulling fs layer
-[2024-07-23 15:10:27] 5664b15f108b: Pulling fs layer
-[2024-07-23 15:10:27] 27be814a09eb: Pulling fs layer
-[2024-07-23 15:10:27] 4aa0ea1413d3: Pulling fs layer
-[2024-07-23 15:10:27] da7816fa955e: Pulling fs layer
-[2024-07-23 15:10:27] 9aee425378d2: Pulling fs layer
-[2024-07-23 15:10:27] 552063771f31: Pulling fs layer
-[2024-07-23 15:10:27] b6824ed73363: Waiting
-[2024-07-23 15:10:27] 27be814a09eb: Waiting
-[2024-07-23 15:10:27] 7c12895b777b: Waiting
-[2024-07-23 15:10:27] 4aa0ea1413d3: Waiting
-[2024-07-23 15:10:27] 33e068de2649: Waiting
-[2024-07-23 15:10:27] da7816fa955e: Waiting
-[2024-07-23 15:10:27] 5664b15f108b: Waiting
-[2024-07-23 15:10:27] 9aee425378d2: Waiting
-[2024-07-23 15:10:27] 552063771f31: Waiting
-[2024-07-23 15:10:27] e8d9a567199d: Download complete
-[2024-07-23 15:10:27] 058cf3d8c2ba: Download complete
-[2024-07-23 15:10:27] f531499c6b73: Verifying Checksum
-[2024-07-23 15:10:27] f531499c6b73: Pull complete
-[2024-07-23 15:10:27] e8d9a567199d: Pull complete
-[2024-07-23 15:10:27] 7c12895b777b: Verifying Checksum
-[2024-07-23 15:10:27] 7c12895b777b: Download complete
-[2024-07-23 15:10:27] b6824ed73363: Download complete
-[2024-07-23 15:10:27] 33e068de2649: Verifying Checksum
-[2024-07-23 15:10:27] 33e068de2649: Download complete
-[2024-07-23 15:10:27] 4aa0ea1413d3: Download complete
-[2024-07-23 15:10:27] 27be814a09eb: Verifying Checksum
-[2024-07-23 15:10:27] 27be814a09eb: Download complete
-[2024-07-23 15:10:27] 5664b15f108b: Verifying Checksum
-[2024-07-23 15:10:27] 5664b15f108b: Download complete
-[2024-07-23 15:10:27] da7816fa955e: Verifying Checksum
-[2024-07-23 15:10:27] da7816fa955e: Download complete
-[2024-07-23 15:10:27] 9aee425378d2: Verifying Checksum
-[2024-07-23 15:10:27] 9aee425378d2: Download complete
-[2024-07-23 15:10:27] 058cf3d8c2ba: Pull complete
-[2024-07-23 15:10:27] b6824ed73363: Pull complete
-[2024-07-23 15:10:27] 7c12895b777b: Pull complete
-[2024-07-23 15:10:27] 33e068de2649: Pull complete
-[2024-07-23 15:10:27] 5664b15f108b: Pull complete
-[2024-07-23 15:10:27] 27be814a09eb: Pull complete
-[2024-07-23 15:10:27] 4aa0ea1413d3: Pull complete
-[2024-07-23 15:10:27] da7816fa955e: Pull complete
-[2024-07-23 15:10:27] 9aee425378d2: Pull complete
-[2024-07-23 15:10:27] 552063771f31: Verifying Checksum
-[2024-07-23 15:10:27] 552063771f31: Download complete
-[2024-07-23 15:10:28] 552063771f31: Pull complete
-[2024-07-23 15:10:28] Digest: sha256:ba1d771ec095df94eb75a667a2fe4178cf8d6f05cde6430c89c7168cd04fcfd3
-[2024-07-23 15:10:28] Status: Downloaded newer image for buildpacksio/lifecycle:0.20.0
-[2024-07-23 15:10:28] ===> ANALYZING
-[2024-07-23 15:10:29] [analyzer] Image with name "my-image-name" not found
-[2024-07-23 15:10:29] ===> DETECTING
-[2024-07-23 15:10:29] [detector] 3 of 5 buildpacks participating
-[2024-07-23 15:10:29] [detector] heroku/nodejs-engine 3.2.9
-[2024-07-23 15:10:29] [detector] heroku/ruby          3.0.0
-[2024-07-23 15:10:29] [detector] heroku/procfile      3.1.2
-[2024-07-23 15:10:29] ===> RESTORING
-[2024-07-23 15:10:30] ===> BUILDING
-[2024-07-23 15:10:30] [builder] 
-[2024-07-23 15:10:30] [builder] [Heroku Node.js Engine Buildpack]
-[2024-07-23 15:10:30] [builder] 
-[2024-07-23 15:10:30] [builder] [Checking Node.js version]
-[2024-07-23 15:10:30] [builder] Node.js version not specified, using 20.x
-[2024-07-23 15:10:30] [builder] Resolved Node.js version: 20.15.1
-[2024-07-23 15:10:30] [builder] 
-[2024-07-23 15:10:30] [builder] [Installing Node.js distribution]
-[2024-07-23 15:10:30] [builder] Downloading Node.js 20.15.1 (linux-amd64) from https://nodejs.org/download/release/v20.15.1/node-v20.15.1-linux-x64.tar.gz
-[2024-07-23 15:10:30] [builder] Verifying checksum
-[2024-07-23 15:10:30] [builder] Extracting Node.js 20.15.1 (linux-amd64)
-[2024-07-23 15:10:31] [builder] Installing Node.js 20.15.1 (linux-amd64)
-[2024-07-23 15:10:31] [builder] 
-[2024-07-23 15:10:31] [builder] # Heroku Ruby Buildpack
-[2024-07-23 15:10:31] [builder] 
-[2024-07-23 15:10:32] [builder] - Metrics agent
-[2024-07-23 15:10:32] [builder]   - Skipping install (`barnes` gem not found)
-[2024-07-23 15:10:32] [builder] - Ruby version `3.2.4` from `Gemfile.lock`
-[2024-07-23 15:10:32] [builder]   - Installing ... (0.668s)
-[2024-07-23 15:10:32] [builder] - Bundler version `2.5.9` from `Gemfile.lock`
-[2024-07-23 15:10:33] [builder]   - Running `gem install bundler --version 2.5.9` .... (1.004s)
-[2024-07-23 15:10:33] [builder] - Bundle install
-[2024-07-23 15:10:33] [builder]   - Running `BUNDLE_BIN="/layers/heroku_ruby/gems/bin" BUNDLE_CLEAN="1" BUNDLE_DEPLOYMENT="1" BUNDLE_GEMFILE="/workspace/Gemfile" BUNDLE_PATH="/layers/heroku_ruby/gems" BUNDLE_WITHOUT="development:test" bundle install`
-[2024-07-23 15:10:33] [builder] 
-[2024-07-23 15:10:35] [builder]       Fetching gem metadata from https://rubygems.org/.........
-[2024-07-23 15:10:35] [builder]       Fetching rake 13.2.1
-[2024-07-23 15:10:35] [builder]       Installing rake 13.2.1
-[2024-07-23 15:10:35] [builder]       Fetching base64 0.2.0
-[2024-07-23 15:10:35] [builder]       Fetching bigdecimal 3.1.8
-[2024-07-23 15:10:35] [builder]       Fetching concurrent-ruby 1.2.3
-[2024-07-23 15:10:35] [builder]       Fetching connection_pool 2.4.1
-[2024-07-23 15:10:35] [builder]       Installing base64 0.2.0
-[2024-07-23 15:10:35] [builder]       Installing connection_pool 2.4.1
-[2024-07-23 15:10:35] [builder]       Fetching drb 2.2.1
-[2024-07-23 15:10:35] [builder]       Installing drb 2.2.1
-[2024-07-23 15:10:35] [builder]       Installing bigdecimal 3.1.8 with native extensions
-[2024-07-23 15:10:35] [builder]       Fetching minitest 5.23.0
-[2024-07-23 15:10:35] [builder]       Installing minitest 5.23.0
-[2024-07-23 15:10:35] [builder]       Fetching mutex_m 0.2.0
-[2024-07-23 15:10:35] [builder]       Installing concurrent-ruby 1.2.3
-[2024-07-23 15:10:35] [builder]       Installing mutex_m 0.2.0
-[2024-07-23 15:10:35] [builder]       Fetching builder 3.2.4
-[2024-07-23 15:10:35] [builder]       Installing builder 3.2.4
-[2024-07-23 15:10:35] [builder]       Fetching erubi 1.12.0
-[2024-07-23 15:10:35] [builder]       Installing erubi 1.12.0
-[2024-07-23 15:10:36] [builder]       Fetching racc 1.7.3
-[2024-07-23 15:10:36] [builder]       Fetching crass 1.0.6
-[2024-07-23 15:10:36] [builder]       Installing racc 1.7.3 with native extensions
-[2024-07-23 15:10:36] [builder]       Installing crass 1.0.6
-[2024-07-23 15:10:36] [builder]       Fetching rack 3.0.11
-[2024-07-23 15:10:36] [builder]       Installing rack 3.0.11
-[2024-07-23 15:10:36] [builder]       Fetching nio4r 2.7.3
-[2024-07-23 15:10:36] [builder]       Fetching websocket-extensions 0.1.5
-[2024-07-23 15:10:36] [builder]       Installing websocket-extensions 0.1.5
-[2024-07-23 15:10:36] [builder]       Installing nio4r 2.7.3 with native extensions
-[2024-07-23 15:10:36] [builder]       Fetching zeitwerk 2.6.14
-[2024-07-23 15:10:36] [builder]       Installing zeitwerk 2.6.14
-[2024-07-23 15:10:36] [builder]       Fetching timeout 0.4.1
-[2024-07-23 15:10:36] [builder]       Installing timeout 0.4.1
-[2024-07-23 15:10:36] [builder]       Fetching marcel 1.0.4
-[2024-07-23 15:10:36] [builder]       Installing marcel 1.0.4
-[2024-07-23 15:10:36] [builder]       Fetching mini_mime 1.1.5
-[2024-07-23 15:10:36] [builder]       Installing mini_mime 1.1.5
-[2024-07-23 15:10:36] [builder]       Fetching date 3.3.4
-[2024-07-23 15:10:36] [builder]       Installing date 3.3.4 with native extensions
-[2024-07-23 15:10:36] [builder]       Fetching msgpack 1.7.2
-[2024-07-23 15:10:36] [builder]       Installing msgpack 1.7.2 with native extensions
-[2024-07-23 15:10:40] [builder]       Fetching coffee-script-source 1.12.2
-[2024-07-23 15:10:40] [builder]       Installing coffee-script-source 1.12.2
-[2024-07-23 15:10:40] [builder]       Fetching execjs 2.8.1
-[2024-07-23 15:10:40] [builder]       Installing execjs 2.8.1
-[2024-07-23 15:10:40] [builder]       Fetching stringio 3.1.0
-[2024-07-23 15:10:40] [builder]       Installing stringio 3.1.0 with native extensions
-[2024-07-23 15:10:41] [builder]       Fetching io-console 0.7.2
-[2024-07-23 15:10:41] [builder]       Installing io-console 0.7.2 with native extensions
-[2024-07-23 15:10:42] [builder]       Fetching webrick 1.8.1
-[2024-07-23 15:10:42] [builder]       Installing webrick 1.8.1
-[2024-07-23 15:10:42] [builder]       Fetching thor 1.3.1
-[2024-07-23 15:10:42] [builder]       Installing thor 1.3.1
-[2024-07-23 15:10:42] [builder]       Fetching ffi 1.16.3
-[2024-07-23 15:10:43] [builder]       Installing ffi 1.16.3 with native extensions
-[2024-07-23 15:10:45] [builder]       Fetching rb-fsevent 0.11.2
-[2024-07-23 15:10:45] [builder]       Installing rb-fsevent 0.11.2
-[2024-07-23 15:10:45] [builder]       Fetching pg 1.5.6
-[2024-07-23 15:10:45] [builder]       Installing pg 1.5.6 with native extensions
-[2024-07-23 15:10:45] [builder]       Fetching tilt 2.1.0
-[2024-07-23 15:10:45] [builder]       Installing tilt 2.1.0
-[2024-07-23 15:10:45] [builder]       Fetching turbolinks-source 5.2.0
-[2024-07-23 15:10:45] [builder]       Installing turbolinks-source 5.2.0
-[2024-07-23 15:10:45] [builder]       Fetching i18n 1.14.5
-[2024-07-23 15:10:46] [builder]       Installing i18n 1.14.5
-[2024-07-23 15:10:46] [builder]       Fetching tzinfo 2.0.6
-[2024-07-23 15:10:46] [builder]       Installing tzinfo 2.0.6
-[2024-07-23 15:10:46] [builder]       Fetching rack-session 2.0.0
-[2024-07-23 15:10:46] [builder]       Installing rack-session 2.0.0
-[2024-07-23 15:10:46] [builder]       Fetching rack-test 2.1.0
-[2024-07-23 15:10:46] [builder]       Installing rack-test 2.1.0
-[2024-07-23 15:10:46] [builder]       Fetching sprockets 4.2.0
-[2024-07-23 15:10:46] [builder]       Installing sprockets 4.2.0
-[2024-07-23 15:10:46] [builder]       Fetching websocket-driver 0.7.6
-[2024-07-23 15:10:46] [builder]       Installing websocket-driver 0.7.6 with native extensions
-[2024-07-23 15:10:46] [builder]       Fetching net-protocol 0.2.2
-[2024-07-23 15:10:46] [builder]       Installing net-protocol 0.2.2
-[2024-07-23 15:10:46] [builder]       Fetching nokogiri 1.16.5 (x86_64-linux)
-[2024-07-23 15:10:46] [builder]       Installing nokogiri 1.16.5 (x86_64-linux)
-[2024-07-23 15:10:47] [builder]       Fetching puma 6.4.2
-[2024-07-23 15:10:47] [builder]       Installing puma 6.4.2 with native extensions
-[2024-07-23 15:10:48] [builder]       Fetching coffee-script 2.4.1
-[2024-07-23 15:10:48] [builder]       Installing coffee-script 2.4.1
-[2024-07-23 15:10:48] [builder]       Fetching uglifier 4.2.0
-[2024-07-23 15:10:48] [builder]       Installing uglifier 4.2.0
-[2024-07-23 15:10:48] [builder]       Fetching psych 5.1.2
-[2024-07-23 15:10:48] [builder]       Installing psych 5.1.2 with native extensions
-[2024-07-23 15:10:50] [builder]       Fetching bootsnap 1.18.3
-[2024-07-23 15:10:50] [builder]       Installing bootsnap 1.18.3 with native extensions
-[2024-07-23 15:10:51] [builder]       Fetching rackup 2.1.0
-[2024-07-23 15:10:51] [builder]       Installing rackup 2.1.0
-[2024-07-23 15:10:51] [builder]       Fetching reline 0.5.7
-[2024-07-23 15:10:51] [builder]       Installing reline 0.5.7
-[2024-07-23 15:10:51] [builder]       Fetching turbolinks 5.2.1
-[2024-07-23 15:10:51] [builder]       Installing turbolinks 5.2.1
-[2024-07-23 15:10:51] [builder]       Fetching net-imap 0.4.11
-[2024-07-23 15:10:51] [builder]       Installing net-imap 0.4.11
-[2024-07-23 15:10:51] [builder]       Fetching net-pop 0.1.2
-[2024-07-23 15:10:51] [builder]       Installing net-pop 0.1.2
-[2024-07-23 15:10:51] [builder]       Fetching net-smtp 0.5.0
-[2024-07-23 15:10:51] [builder]       Installing net-smtp 0.5.0
-[2024-07-23 15:10:51] [builder]       Fetching loofah 2.22.0
-[2024-07-23 15:10:51] [builder]       Installing loofah 2.22.0
-[2024-07-23 15:10:51] [builder]       Fetching activesupport 7.1.3.2
-[2024-07-23 15:10:51] [builder]       Installing activesupport 7.1.3.2
-[2024-07-23 15:10:51] [builder]       Fetching rdoc 6.6.3.1
-[2024-07-23 15:10:51] [builder]       Installing rdoc 6.6.3.1
-[2024-07-23 15:10:51] [builder]       Fetching mail 2.8.1
-[2024-07-23 15:10:51] [builder]       Installing mail 2.8.1
-[2024-07-23 15:10:51] [builder]       Fetching rails-html-sanitizer 1.6.0
-[2024-07-23 15:10:51] [builder]       Installing rails-html-sanitizer 1.6.0
-[2024-07-23 15:10:51] [builder]       Fetching rails-dom-testing 2.2.0
-[2024-07-23 15:10:51] [builder]       Installing rails-dom-testing 2.2.0
-[2024-07-23 15:10:51] [builder]       Fetching globalid 1.2.1
-[2024-07-23 15:10:51] [builder]       Installing globalid 1.2.1
-[2024-07-23 15:10:51] [builder]       Fetching activemodel 7.1.3.2
-[2024-07-23 15:10:51] [builder]       Installing activemodel 7.1.3.2
-[2024-07-23 15:10:51] [builder]       Fetching irb 1.13.1
-[2024-07-23 15:10:51] [builder]       Installing irb 1.13.1
-[2024-07-23 15:10:51] [builder]       Fetching sdoc 2.6.1
-[2024-07-23 15:10:51] [builder]       Installing sdoc 2.6.1
-[2024-07-23 15:10:52] [builder]       Fetching actionview 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing actionview 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching activejob 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing activejob 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching activerecord 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching actionpack 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing actionpack 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing activerecord 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching jbuilder 2.12.0
-[2024-07-23 15:10:52] [builder]       Installing jbuilder 2.12.0
-[2024-07-23 15:10:52] [builder]       Fetching actioncable 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing actioncable 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching actionmailer 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing actionmailer 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching railties 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching sprockets-rails 3.4.2
-[2024-07-23 15:10:52] [builder]       Installing railties 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing sprockets-rails 3.4.2
-[2024-07-23 15:10:52] [builder]       Fetching activestorage 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing activestorage 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching rb-inotify 0.10.1
-[2024-07-23 15:10:52] [builder]       Installing rb-inotify 0.10.1
-[2024-07-23 15:10:52] [builder]       Fetching sassc 2.4.0
-[2024-07-23 15:10:52] [builder]       Fetching listen 3.9.0
-[2024-07-23 15:10:52] [builder]       Installing listen 3.9.0
-[2024-07-23 15:10:52] [builder]       Installing sassc 2.4.0 with native extensions
-[2024-07-23 15:10:52] [builder]       Fetching actionmailbox 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing actionmailbox 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching actiontext 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing actiontext 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Fetching coffee-rails 5.0.0
-[2024-07-23 15:10:52] [builder]       Fetching jquery-rails 4.6.0
-[2024-07-23 15:10:52] [builder]       Installing coffee-rails 5.0.0
-[2024-07-23 15:10:52] [builder]       Fetching rails 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing rails 7.1.3.2
-[2024-07-23 15:10:52] [builder]       Installing jquery-rails 4.6.0
-[2024-07-23 15:11:45] [builder]       Fetching sassc-rails 2.1.2
-[2024-07-23 15:11:45] [builder]       Installing sassc-rails 2.1.2
-[2024-07-23 15:11:45] [builder]       Fetching sass-rails 6.0.0
-[2024-07-23 15:11:45] [builder]       Installing sass-rails 6.0.0
-[2024-07-23 15:11:45] [builder]       Bundle complete! 13 Gemfile dependencies, 82 gems now installed.
-[2024-07-23 15:11:45] [builder]       Gems in the groups 'development' and 'test' were not installed.
-[2024-07-23 15:11:45] [builder]       Bundled gems are installed into `/layers/heroku_ruby/gems`
-[2024-07-23 15:11:45] [builder]             
-[2024-07-23 15:11:45] [builder]   - Done (1m 11s)
-[2024-07-23 15:11:45] [builder] - Setting default processes
-[2024-07-23 15:11:45] [builder]   - Running `bundle list` ... (0.175s)
-[2024-07-23 15:11:45] [builder]   - Detected rails app (`rails` gem found)
-[2024-07-23 15:11:45] [builder] - Rake assets install
-[2024-07-23 15:11:45] [builder]   - Detected rake (`rake` gem found, `Rakefile` found at `/workspace/Rakefile`)
-[2024-07-23 15:11:47] [builder]   - Running `bundle exec rake -P --trace` .... (1.718s)
-[2024-07-23 15:11:47] [builder]   - Compiling assets with cache (detected `rake assets:precompile` and `rake assets:clean` via `bundle exec rake -P`)
-[2024-07-23 15:11:47] [builder]   - Creating cache for /workspace/public/assets
-[2024-07-23 15:11:47] [builder]   - Creating cache for /workspace/tmp/cache/assets
-[2024-07-23 15:11:47] [builder]   - Running `bundle exec rake assets:precompile assets:clean --trace`
-[2024-07-23 15:11:47] [builder] 
-[2024-07-23 15:11:47] [builder]       ** Invoke assets:precompile (first_time)
-[2024-07-23 15:11:47] [builder]       ** Invoke assets:environment (first_time)
-[2024-07-23 15:11:47] [builder]       ** Execute assets:environment
-[2024-07-23 15:11:47] [builder]       ** Invoke environment (first_time)
-[2024-07-23 15:11:47] [builder]       ** Execute environment
-[2024-07-23 15:11:48] [builder]       ** Execute assets:precompile
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.536223 #1499]  INFO -- : Writing /workspace/public/assets/manifest-dad05bf766af0fe3d79dd746db3c1361c0583026cdf35d6a2921bccaea835331.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.536410 #1499]  INFO -- : Writing /workspace/public/assets/manifest-dad05bf766af0fe3d79dd746db3c1361c0583026cdf35d6a2921bccaea835331.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.536762 #1499]  INFO -- : Writing /workspace/public/assets/lang-logo-b6c7c4b6a37e9c2425ca4d54561010c0719870ae325c849de398499f1ab098a9.png
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.537266 #1499]  INFO -- : Writing /workspace/public/assets/application-9ced36c9568ebfd1053e04ba411af767274dfcccd9807c0989f8bd17ca5e8f5b.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.537489 #1499]  INFO -- : Writing /workspace/public/assets/application-9ced36c9568ebfd1053e04ba411af767274dfcccd9807c0989f8bd17ca5e8f5b.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.538001 #1499]  INFO -- : Writing /workspace/public/assets/welcome-27cfb9694c5e92d25d972c2b4a2d2e222ad088aef866823f772241c1db423402.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.538174 #1499]  INFO -- : Writing /workspace/public/assets/welcome-27cfb9694c5e92d25d972c2b4a2d2e222ad088aef866823f772241c1db423402.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.538436 #1499]  INFO -- : Writing /workspace/public/assets/widgets-27cfb9694c5e92d25d972c2b4a2d2e222ad088aef866823f772241c1db423402.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.538552 #1499]  INFO -- : Writing /workspace/public/assets/widgets-27cfb9694c5e92d25d972c2b4a2d2e222ad088aef866823f772241c1db423402.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.538691 #1499]  INFO -- : Writing /workspace/public/assets/application-776d900b9840362472b5b6b4afb9b798c78d53098a77b289b8bfc22c6d241913.css
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.538802 #1499]  INFO -- : Writing /workspace/public/assets/application-776d900b9840362472b5b6b4afb9b798c78d53098a77b289b8bfc22c6d241913.css.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.539030 #1499]  INFO -- : Writing /workspace/public/assets/scaffolds-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.539543 #1499]  INFO -- : Writing /workspace/public/assets/scaffolds-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.539711 #1499]  INFO -- : Writing /workspace/public/assets/theme-776d900b9840362472b5b6b4afb9b798c78d53098a77b289b8bfc22c6d241913.css
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.539849 #1499]  INFO -- : Writing /workspace/public/assets/theme-776d900b9840362472b5b6b4afb9b798c78d53098a77b289b8bfc22c6d241913.css.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.540010 #1499]  INFO -- : Writing /workspace/public/assets/welcome-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.540238 #1499]  INFO -- : Writing /workspace/public/assets/welcome-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.540660 #1499]  INFO -- : Writing /workspace/public/assets/widgets-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.540763 #1499]  INFO -- : Writing /workspace/public/assets/widgets-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.540909 #1499]  INFO -- : Writing /workspace/public/assets/actiontext-78de0ebeae470799f9ec25fd0e20ae2d931df88c2ff9315918d1054a2fca2596.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.541015 #1499]  INFO -- : Writing /workspace/public/assets/actiontext-78de0ebeae470799f9ec25fd0e20ae2d931df88c2ff9315918d1054a2fca2596.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.541345 #1499]  INFO -- : Writing /workspace/public/assets/actiontext.esm-328ef022563f73c1b9b45ace742bd21330da0f6bd6c1c96d352d52fc8b8857e5.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.541998 #1499]  INFO -- : Writing /workspace/public/assets/actiontext.esm-328ef022563f73c1b9b45ace742bd21330da0f6bd6c1c96d352d52fc8b8857e5.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.542492 #1499]  INFO -- : Writing /workspace/public/assets/trix-e17a480fcb4e30c8571f0fed42dc81de5faeef93755ca30fe9623eb3f5c709e5.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.542712 #1499]  INFO -- : Writing /workspace/public/assets/trix-e17a480fcb4e30c8571f0fed42dc81de5faeef93755ca30fe9623eb3f5c709e5.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.543164 #1499]  INFO -- : Writing /workspace/public/assets/trix-5552afe828fe79c41e53b9cc3616e9d7b8c2de1979ea62cbd663b88426ec41de.css
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.543655 #1499]  INFO -- : Writing /workspace/public/assets/trix-5552afe828fe79c41e53b9cc3616e9d7b8c2de1979ea62cbd663b88426ec41de.css.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.544164 #1499]  INFO -- : Writing /workspace/public/assets/activestorage-503a4fe23aabfbcb752dad255f01835904e6961d5f20d1de13987a691c27d9cd.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.544658 #1499]  INFO -- : Writing /workspace/public/assets/activestorage-503a4fe23aabfbcb752dad255f01835904e6961d5f20d1de13987a691c27d9cd.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.544898 #1499]  INFO -- : Writing /workspace/public/assets/activestorage.esm-b3f7f0a5ef90530b509c5e681c4b3ef5d5046851e5b70d57fdb45e32b039c883.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.545453 #1499]  INFO -- : Writing /workspace/public/assets/activestorage.esm-b3f7f0a5ef90530b509c5e681c4b3ef5d5046851e5b70d57fdb45e32b039c883.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.545904 #1499]  INFO -- : Writing /workspace/public/assets/actioncable-1c7f008c6deb7b55c6878be38700ff6bf56b75444a086fa1f46e3b781365a3ea.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.546358 #1499]  INFO -- : Writing /workspace/public/assets/actioncable-1c7f008c6deb7b55c6878be38700ff6bf56b75444a086fa1f46e3b781365a3ea.js.gz
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.546573 #1499]  INFO -- : Writing /workspace/public/assets/actioncable.esm-06609b0ecaffe2ab952021b9c8df8b6c68f65fc23bee728fc678a2605e1ce132.js
-[2024-07-23 15:11:48] [builder]       I, [2024-07-23T15:11:48.546683 #1499]  INFO -- : Writing /workspace/public/assets/actioncable.esm-06609b0ecaffe2ab952021b9c8df8b6c68f65fc23bee728fc678a2605e1ce132.js.gz
-[2024-07-23 15:11:48] [builder]       ** Invoke assets:clean (first_time)
-[2024-07-23 15:11:48] [builder]       ** Invoke assets:environment 
-[2024-07-23 15:11:48] [builder]       ** Execute assets:clean
-[2024-07-23 15:11:48] [builder]             
-[2024-07-23 15:11:48] [builder]   - Done (1.319s)
-[2024-07-23 15:11:48] [builder]   - Storing cache for /workspace/public/assets
-[2024-07-23 15:11:48] [builder]   - Storing cache for /workspace/tmp/cache/assets
-[2024-07-23 15:11:48] [builder] - Done (finished in 1m 16s)
-[2024-07-23 15:11:48] [builder] 
-[2024-07-23 15:11:48] [builder] [Discovering process types]
-[2024-07-23 15:11:48] [builder] Procfile declares types -> web
-[2024-07-23 15:11:48] ===> EXPORTING
-[2024-07-23 15:11:49] [exporter] Adding layer 'heroku/nodejs-engine:dist'
-[2024-07-23 15:11:51] [exporter] Adding layer 'heroku/nodejs-engine:node_runtime_metrics'
-[2024-07-23 15:11:51] [exporter] Adding layer 'heroku/nodejs-engine:web_env'
-[2024-07-23 15:11:51] [exporter] Adding layer 'heroku/ruby:bundler'
-[2024-07-23 15:11:51] [exporter] Adding layer 'heroku/ruby:cache_public_assets'
-[2024-07-23 15:11:51] [exporter] Adding layer 'heroku/ruby:cache_tmp_cache_assets'
-[2024-07-23 15:11:51] [exporter] Adding layer 'heroku/ruby:env_defaults'
-[2024-07-23 15:11:52] [exporter] Adding layer 'heroku/ruby:gems'
-[2024-07-23 15:11:53] [exporter] Adding layer 'heroku/ruby:ruby'
-[2024-07-23 15:11:54] [exporter] Adding layer 'buildpacksio/lifecycle:launch.sbom'
-[2024-07-23 15:11:54] [exporter] Adding 1/1 app layer(s)
-[2024-07-23 15:11:54] [exporter] Adding layer 'buildpacksio/lifecycle:launcher'
-[2024-07-23 15:11:54] [exporter] Adding layer 'buildpacksio/lifecycle:config'
-[2024-07-23 15:11:54] [exporter] Adding layer 'buildpacksio/lifecycle:process-types'
-[2024-07-23 15:11:54] [exporter] Adding label 'io.buildpacks.lifecycle.metadata'
-[2024-07-23 15:11:54] [exporter] Adding label 'io.buildpacks.build.metadata'
-[2024-07-23 15:11:54] [exporter] Adding label 'io.buildpacks.project.metadata'
-[2024-07-23 15:11:54] [exporter] Setting default process type 'web'
-[2024-07-23 15:11:54] [exporter] Saving my-image-name...
-[2024-07-23 15:12:02] [exporter] *** Images (2b2e80d08b52):
-[2024-07-23 15:12:02] [exporter]       my-image-name
-[2024-07-23 15:12:02] [exporter] Adding cache layer 'heroku/nodejs-engine:dist'
-[2024-07-23 15:12:02] [exporter] Adding cache layer 'heroku/ruby:bundler'
-[2024-07-23 15:12:02] [exporter] Adding cache layer 'heroku/ruby:cache_public_assets'
-[2024-07-23 15:12:02] [exporter] Adding cache layer 'heroku/ruby:cache_tmp_cache_assets'
-[2024-07-23 15:12:02] [exporter] Adding cache layer 'heroku/ruby:gems'
-[2024-07-23 15:12:02] [exporter] Adding cache layer 'heroku/ruby:ruby'
-[2024-07-23 15:12:03] Successfully built image 'my-image-name'
+[2024-07-29 00:39:03] 22: Pulling from heroku/builder
+[2024-07-29 00:39:03] 9b857f539cb1: Pulling fs layer
+[2024-07-29 00:39:03] 7af71cb397b9: Pulling fs layer
+[2024-07-29 00:39:03] 0dea8f52227b: Pulling fs layer
+[2024-07-29 00:39:03] 881b32f67d5f: Pulling fs layer
+[2024-07-29 00:39:03] 182afb1fe5dc: Pulling fs layer
+[2024-07-29 00:39:03] eef3e9640d29: Pulling fs layer
+[2024-07-29 00:39:03] b7df828c981a: Pulling fs layer
+[2024-07-29 00:39:03] 05866839ed8e: Pulling fs layer
+[2024-07-29 00:39:03] 1e4c68ff7df8: Pulling fs layer
+[2024-07-29 00:39:03] aac7f4f5dfbd: Pulling fs layer
+[2024-07-29 00:39:03] 7ad8b309ac9a: Pulling fs layer
+[2024-07-29 00:39:03] 47237141b1fe: Pulling fs layer
+[2024-07-29 00:39:03] 08d359555ab8: Pulling fs layer
+[2024-07-29 00:39:03] 42bb88b3690e: Pulling fs layer
+[2024-07-29 00:39:03] a2e8d3270011: Pulling fs layer
+[2024-07-29 00:39:03] 61aa9f9f5090: Pulling fs layer
+[2024-07-29 00:39:03] 57e63866fe46: Pulling fs layer
+[2024-07-29 00:39:03] 454745ed8d31: Pulling fs layer
+[2024-07-29 00:39:03] c6e4e9583515: Pulling fs layer
+[2024-07-29 00:39:03] 464eddc5e83b: Pulling fs layer
+[2024-07-29 00:39:03] 2c910edb2a09: Pulling fs layer
+[2024-07-29 00:39:03] b886be5769bb: Pulling fs layer
+[2024-07-29 00:39:03] c65710a064c1: Pulling fs layer
+[2024-07-29 00:39:03] a8aa3cd86a13: Pulling fs layer
+[2024-07-29 00:39:03] 0948dd96497c: Pulling fs layer
+[2024-07-29 00:39:03] e90c3615a082: Pulling fs layer
+[2024-07-29 00:39:03] dcc7df304966: Pulling fs layer
+[2024-07-29 00:39:03] b9f6de2761b9: Pulling fs layer
+[2024-07-29 00:39:03] 4f4fb700ef54: Pulling fs layer
+[2024-07-29 00:39:03] a2e8d3270011: Waiting
+[2024-07-29 00:39:03] 61aa9f9f5090: Waiting
+[2024-07-29 00:39:03] 57e63866fe46: Waiting
+[2024-07-29 00:39:03] 454745ed8d31: Waiting
+[2024-07-29 00:39:03] c6e4e9583515: Waiting
+[2024-07-29 00:39:03] 464eddc5e83b: Waiting
+[2024-07-29 00:39:03] 2c910edb2a09: Waiting
+[2024-07-29 00:39:03] b886be5769bb: Waiting
+[2024-07-29 00:39:03] c65710a064c1: Waiting
+[2024-07-29 00:39:03] a8aa3cd86a13: Waiting
+[2024-07-29 00:39:03] 0948dd96497c: Waiting
+[2024-07-29 00:39:03] e90c3615a082: Waiting
+[2024-07-29 00:39:03] dcc7df304966: Waiting
+[2024-07-29 00:39:03] b9f6de2761b9: Waiting
+[2024-07-29 00:39:03] 4f4fb700ef54: Waiting
+[2024-07-29 00:39:03] 1e4c68ff7df8: Waiting
+[2024-07-29 00:39:03] aac7f4f5dfbd: Waiting
+[2024-07-29 00:39:03] 7ad8b309ac9a: Waiting
+[2024-07-29 00:39:03] 47237141b1fe: Waiting
+[2024-07-29 00:39:03] 08d359555ab8: Waiting
+[2024-07-29 00:39:03] 881b32f67d5f: Waiting
+[2024-07-29 00:39:03] 42bb88b3690e: Waiting
+[2024-07-29 00:39:03] 182afb1fe5dc: Waiting
+[2024-07-29 00:39:03] eef3e9640d29: Waiting
+[2024-07-29 00:39:03] b7df828c981a: Waiting
+[2024-07-29 00:39:03] 05866839ed8e: Waiting
+[2024-07-29 00:39:03] 9b857f539cb1: Download complete
+[2024-07-29 00:39:04] 881b32f67d5f: Verifying Checksum
+[2024-07-29 00:39:04] 881b32f67d5f: Download complete
+[2024-07-29 00:39:04] 182afb1fe5dc: Download complete
+[2024-07-29 00:39:04] 0dea8f52227b: Verifying Checksum
+[2024-07-29 00:39:04] 0dea8f52227b: Download complete
+[2024-07-29 00:39:04] 7af71cb397b9: Verifying Checksum
+[2024-07-29 00:39:04] 7af71cb397b9: Download complete
+[2024-07-29 00:39:04] eef3e9640d29: Download complete
+[2024-07-29 00:39:04] 05866839ed8e: Verifying Checksum
+[2024-07-29 00:39:04] 05866839ed8e: Download complete
+[2024-07-29 00:39:04] b7df828c981a: Verifying Checksum
+[2024-07-29 00:39:04] b7df828c981a: Download complete
+[2024-07-29 00:39:04] 1e4c68ff7df8: Verifying Checksum
+[2024-07-29 00:39:04] 1e4c68ff7df8: Download complete
+[2024-07-29 00:39:04] 9b857f539cb1: Pull complete
+[2024-07-29 00:39:05] aac7f4f5dfbd: Verifying Checksum
+[2024-07-29 00:39:05] aac7f4f5dfbd: Download complete
+[2024-07-29 00:39:05] 7ad8b309ac9a: Verifying Checksum
+[2024-07-29 00:39:05] 7ad8b309ac9a: Download complete
+[2024-07-29 00:39:05] 47237141b1fe: Verifying Checksum
+[2024-07-29 00:39:05] 47237141b1fe: Download complete
+[2024-07-29 00:39:05] 08d359555ab8: Verifying Checksum
+[2024-07-29 00:39:05] 08d359555ab8: Download complete
+[2024-07-29 00:39:05] 42bb88b3690e: Download complete
+[2024-07-29 00:39:05] a2e8d3270011: Verifying Checksum
+[2024-07-29 00:39:05] a2e8d3270011: Download complete
+[2024-07-29 00:39:05] 61aa9f9f5090: Verifying Checksum
+[2024-07-29 00:39:05] 61aa9f9f5090: Download complete
+[2024-07-29 00:39:05] 57e63866fe46: Verifying Checksum
+[2024-07-29 00:39:05] 57e63866fe46: Download complete
+[2024-07-29 00:39:05] 454745ed8d31: Verifying Checksum
+[2024-07-29 00:39:05] 454745ed8d31: Download complete
+[2024-07-29 00:39:05] c6e4e9583515: Verifying Checksum
+[2024-07-29 00:39:05] c6e4e9583515: Download complete
+[2024-07-29 00:39:05] 464eddc5e83b: Verifying Checksum
+[2024-07-29 00:39:05] 464eddc5e83b: Download complete
+[2024-07-29 00:39:05] 2c910edb2a09: Verifying Checksum
+[2024-07-29 00:39:05] 2c910edb2a09: Download complete
+[2024-07-29 00:39:06] b886be5769bb: Verifying Checksum
+[2024-07-29 00:39:06] b886be5769bb: Download complete
+[2024-07-29 00:39:06] c65710a064c1: Verifying Checksum
+[2024-07-29 00:39:06] c65710a064c1: Download complete
+[2024-07-29 00:39:06] a8aa3cd86a13: Verifying Checksum
+[2024-07-29 00:39:06] a8aa3cd86a13: Download complete
+[2024-07-29 00:39:06] 0948dd96497c: Download complete
+[2024-07-29 00:39:06] e90c3615a082: Download complete
+[2024-07-29 00:39:06] dcc7df304966: Verifying Checksum
+[2024-07-29 00:39:06] dcc7df304966: Download complete
+[2024-07-29 00:39:06] b9f6de2761b9: Download complete
+[2024-07-29 00:39:06] 4f4fb700ef54: Verifying Checksum
+[2024-07-29 00:39:06] 4f4fb700ef54: Download complete
+[2024-07-29 00:39:12] 7af71cb397b9: Pull complete
+[2024-07-29 00:39:17] 0dea8f52227b: Pull complete
+[2024-07-29 00:39:17] 881b32f67d5f: Pull complete
+[2024-07-29 00:39:17] 182afb1fe5dc: Pull complete
+[2024-07-29 00:39:18] eef3e9640d29: Pull complete
+[2024-07-29 00:39:18] b7df828c981a: Pull complete
+[2024-07-29 00:39:18] 05866839ed8e: Pull complete
+[2024-07-29 00:39:18] 1e4c68ff7df8: Pull complete
+[2024-07-29 00:39:18] aac7f4f5dfbd: Pull complete
+[2024-07-29 00:39:18] 7ad8b309ac9a: Pull complete
+[2024-07-29 00:39:18] 47237141b1fe: Pull complete
+[2024-07-29 00:39:18] 08d359555ab8: Pull complete
+[2024-07-29 00:39:18] 42bb88b3690e: Pull complete
+[2024-07-29 00:39:18] a2e8d3270011: Pull complete
+[2024-07-29 00:39:18] 61aa9f9f5090: Pull complete
+[2024-07-29 00:39:18] 57e63866fe46: Pull complete
+[2024-07-29 00:39:18] 454745ed8d31: Pull complete
+[2024-07-29 00:39:18] c6e4e9583515: Pull complete
+[2024-07-29 00:39:18] 464eddc5e83b: Pull complete
+[2024-07-29 00:39:18] 2c910edb2a09: Pull complete
+[2024-07-29 00:39:18] b886be5769bb: Pull complete
+[2024-07-29 00:39:18] c65710a064c1: Pull complete
+[2024-07-29 00:39:18] a8aa3cd86a13: Pull complete
+[2024-07-29 00:39:18] 0948dd96497c: Pull complete
+[2024-07-29 00:39:18] e90c3615a082: Pull complete
+[2024-07-29 00:39:18] dcc7df304966: Pull complete
+[2024-07-29 00:39:18] b9f6de2761b9: Pull complete
+[2024-07-29 00:39:18] 4f4fb700ef54: Pull complete
+[2024-07-29 00:39:18] Digest: sha256:04585c14ce36c2e70c9c1b60150b3c556f7cf5cebdc60ce686d2100061565601
+[2024-07-29 00:39:18] Status: Downloaded newer image for heroku/builder:22
+[2024-07-29 00:39:20] 22-cnb: Pulling from heroku/heroku
+[2024-07-29 00:39:20] 3713021b0277: Already exists
+[2024-07-29 00:39:20] 7af71cb397b9: Already exists
+[2024-07-29 00:39:20] a60a4685c8e9: Pulling fs layer
+[2024-07-29 00:39:20] a60a4685c8e9: Verifying Checksum
+[2024-07-29 00:39:20] a60a4685c8e9: Download complete
+[2024-07-29 00:39:20] a60a4685c8e9: Pull complete
+[2024-07-29 00:39:20] Digest: sha256:d7476bdc16c636466e7842d2543274880d68e624cabca0a9de8e0d08009d529e
+[2024-07-29 00:39:20] Status: Downloaded newer image for heroku/heroku:22-cnb
+[2024-07-29 00:39:21] 0.20.0: Pulling from buildpacksio/lifecycle
+[2024-07-29 00:39:21] f531499c6b73: Pulling fs layer
+[2024-07-29 00:39:21] e8d9a567199d: Pulling fs layer
+[2024-07-29 00:39:21] 058cf3d8c2ba: Pulling fs layer
+[2024-07-29 00:39:21] b6824ed73363: Pulling fs layer
+[2024-07-29 00:39:21] 7c12895b777b: Pulling fs layer
+[2024-07-29 00:39:21] 33e068de2649: Pulling fs layer
+[2024-07-29 00:39:21] 5664b15f108b: Pulling fs layer
+[2024-07-29 00:39:21] 27be814a09eb: Pulling fs layer
+[2024-07-29 00:39:21] 4aa0ea1413d3: Pulling fs layer
+[2024-07-29 00:39:21] da7816fa955e: Pulling fs layer
+[2024-07-29 00:39:21] 9aee425378d2: Pulling fs layer
+[2024-07-29 00:39:21] 552063771f31: Pulling fs layer
+[2024-07-29 00:39:21] 33e068de2649: Waiting
+[2024-07-29 00:39:21] 5664b15f108b: Waiting
+[2024-07-29 00:39:21] 27be814a09eb: Waiting
+[2024-07-29 00:39:21] 4aa0ea1413d3: Waiting
+[2024-07-29 00:39:21] da7816fa955e: Waiting
+[2024-07-29 00:39:21] 9aee425378d2: Waiting
+[2024-07-29 00:39:21] 552063771f31: Waiting
+[2024-07-29 00:39:21] b6824ed73363: Waiting
+[2024-07-29 00:39:21] 7c12895b777b: Waiting
+[2024-07-29 00:39:22] e8d9a567199d: Download complete
+[2024-07-29 00:39:22] 058cf3d8c2ba: Download complete
+[2024-07-29 00:39:22] f531499c6b73: Download complete
+[2024-07-29 00:39:22] f531499c6b73: Pull complete
+[2024-07-29 00:39:22] e8d9a567199d: Pull complete
+[2024-07-29 00:39:22] b6824ed73363: Verifying Checksum
+[2024-07-29 00:39:22] b6824ed73363: Download complete
+[2024-07-29 00:39:22] 7c12895b777b: Verifying Checksum
+[2024-07-29 00:39:22] 7c12895b777b: Download complete
+[2024-07-29 00:39:22] 33e068de2649: Verifying Checksum
+[2024-07-29 00:39:22] 33e068de2649: Download complete
+[2024-07-29 00:39:22] 058cf3d8c2ba: Pull complete
+[2024-07-29 00:39:22] b6824ed73363: Pull complete
+[2024-07-29 00:39:22] 7c12895b777b: Pull complete
+[2024-07-29 00:39:22] 33e068de2649: Pull complete
+[2024-07-29 00:39:22] 5664b15f108b: Verifying Checksum
+[2024-07-29 00:39:22] 5664b15f108b: Pull complete
+[2024-07-29 00:39:22] 27be814a09eb: Download complete
+[2024-07-29 00:39:22] 4aa0ea1413d3: Verifying Checksum
+[2024-07-29 00:39:22] 4aa0ea1413d3: Download complete
+[2024-07-29 00:39:22] 27be814a09eb: Pull complete
+[2024-07-29 00:39:22] 4aa0ea1413d3: Pull complete
+[2024-07-29 00:39:22] da7816fa955e: Verifying Checksum
+[2024-07-29 00:39:22] da7816fa955e: Download complete
+[2024-07-29 00:39:22] da7816fa955e: Pull complete
+[2024-07-29 00:39:22] 9aee425378d2: Verifying Checksum
+[2024-07-29 00:39:22] 9aee425378d2: Download complete
+[2024-07-29 00:39:22] 9aee425378d2: Pull complete
+[2024-07-29 00:39:22] 552063771f31: Verifying Checksum
+[2024-07-29 00:39:22] 552063771f31: Download complete
+[2024-07-29 00:39:23] 552063771f31: Pull complete
+[2024-07-29 00:39:23] Digest: sha256:ba1d771ec095df94eb75a667a2fe4178cf8d6f05cde6430c89c7168cd04fcfd3
+[2024-07-29 00:39:23] Status: Downloaded newer image for buildpacksio/lifecycle:0.20.0
+[2024-07-29 00:39:23] ===> ANALYZING
+[2024-07-29 00:39:23] [analyzer] Image with name "my-image-name" not found
+[2024-07-29 00:39:23] ===> DETECTING
+[2024-07-29 00:39:23] [detector] 3 of 5 buildpacks participating
+[2024-07-29 00:39:23] [detector] heroku/nodejs-engine 3.2.9
+[2024-07-29 00:39:23] [detector] heroku/ruby          3.0.0
+[2024-07-29 00:39:23] [detector] heroku/procfile      3.1.2
+[2024-07-29 00:39:23] ===> RESTORING
+[2024-07-29 00:39:24] ===> BUILDING
+[2024-07-29 00:39:24] [builder] 
+[2024-07-29 00:39:24] [builder] [Heroku Node.js Engine Buildpack]
+[2024-07-29 00:39:24] [builder] 
+[2024-07-29 00:39:24] [builder] [Checking Node.js version]
+[2024-07-29 00:39:24] [builder] Node.js version not specified, using 20.x
+[2024-07-29 00:39:24] [builder] Resolved Node.js version: 20.15.1
+[2024-07-29 00:39:24] [builder] 
+[2024-07-29 00:39:24] [builder] [Installing Node.js distribution]
+[2024-07-29 00:39:24] [builder] Downloading Node.js 20.15.1 (linux-amd64) from https://nodejs.org/download/release/v20.15.1/node-v20.15.1-linux-x64.tar.gz
+[2024-07-29 00:39:24] [builder] Verifying checksum
+[2024-07-29 00:39:24] [builder] Extracting Node.js 20.15.1 (linux-amd64)
+[2024-07-29 00:39:25] [builder] Installing Node.js 20.15.1 (linux-amd64)
+[2024-07-29 00:39:25] [builder] 
+[2024-07-29 00:39:25] [builder] # Heroku Ruby Buildpack
+[2024-07-29 00:39:25] [builder] 
+[2024-07-29 00:39:25] [builder] - Metrics agent
+[2024-07-29 00:39:25] [builder]   - Skipping install (`barnes` gem not found)
+[2024-07-29 00:39:25] [builder] - Ruby version `3.2.4` from `Gemfile.lock`
+[2024-07-29 00:39:27] [builder]   - Installing .... (1.542s)
+[2024-07-29 00:39:27] [builder] - Bundler version `2.5.9` from `Gemfile.lock`
+[2024-07-29 00:39:28] [builder]   - Running `gem install bundler --version 2.5.9` ... (0.927s)
+[2024-07-29 00:39:28] [builder] - Bundle install
+[2024-07-29 00:39:28] [builder]   - Running `BUNDLE_BIN="/layers/heroku_ruby/gems/bin" BUNDLE_CLEAN="1" BUNDLE_DEPLOYMENT="1" BUNDLE_GEMFILE="/workspace/Gemfile" BUNDLE_PATH="/layers/heroku_ruby/gems" BUNDLE_WITHOUT="development:test" bundle install`
+[2024-07-29 00:39:28] [builder] 
+[2024-07-29 00:39:30] [builder]       Fetching gem metadata from https://rubygems.org/.........
+[2024-07-29 00:39:30] [builder]       Fetching rake 13.2.1
+[2024-07-29 00:39:30] [builder]       Installing rake 13.2.1
+[2024-07-29 00:39:30] [builder]       Fetching bigdecimal 3.1.8
+[2024-07-29 00:39:30] [builder]       Fetching base64 0.2.0
+[2024-07-29 00:39:30] [builder]       Fetching concurrent-ruby 1.2.3
+[2024-07-29 00:39:30] [builder]       Fetching connection_pool 2.4.1
+[2024-07-29 00:39:30] [builder]       Installing connection_pool 2.4.1
+[2024-07-29 00:39:30] [builder]       Installing base64 0.2.0
+[2024-07-29 00:39:30] [builder]       Installing bigdecimal 3.1.8 with native extensions
+[2024-07-29 00:39:30] [builder]       Fetching drb 2.2.1
+[2024-07-29 00:39:30] [builder]       Fetching minitest 5.23.0
+[2024-07-29 00:39:30] [builder]       Installing drb 2.2.1
+[2024-07-29 00:39:30] [builder]       Installing minitest 5.23.0
+[2024-07-29 00:39:30] [builder]       Installing concurrent-ruby 1.2.3
+[2024-07-29 00:39:30] [builder]       Fetching mutex_m 0.2.0
+[2024-07-29 00:39:30] [builder]       Installing mutex_m 0.2.0
+[2024-07-29 00:39:30] [builder]       Fetching builder 3.2.4
+[2024-07-29 00:39:30] [builder]       Installing builder 3.2.4
+[2024-07-29 00:39:30] [builder]       Fetching erubi 1.12.0
+[2024-07-29 00:39:30] [builder]       Installing erubi 1.12.0
+[2024-07-29 00:39:30] [builder]       Fetching racc 1.7.3
+[2024-07-29 00:39:30] [builder]       Fetching crass 1.0.6
+[2024-07-29 00:39:30] [builder]       Installing racc 1.7.3 with native extensions
+[2024-07-29 00:39:30] [builder]       Installing crass 1.0.6
+[2024-07-29 00:39:30] [builder]       Fetching rack 3.0.11
+[2024-07-29 00:39:30] [builder]       Installing rack 3.0.11
+[2024-07-29 00:39:30] [builder]       Fetching nio4r 2.7.3
+[2024-07-29 00:39:30] [builder]       Fetching websocket-extensions 0.1.5
+[2024-07-29 00:39:30] [builder]       Installing websocket-extensions 0.1.5
+[2024-07-29 00:39:30] [builder]       Fetching zeitwerk 2.6.14
+[2024-07-29 00:39:30] [builder]       Installing nio4r 2.7.3 with native extensions
+[2024-07-29 00:39:30] [builder]       Installing zeitwerk 2.6.14
+[2024-07-29 00:39:30] [builder]       Fetching timeout 0.4.1
+[2024-07-29 00:39:30] [builder]       Installing timeout 0.4.1
+[2024-07-29 00:39:30] [builder]       Fetching marcel 1.0.4
+[2024-07-29 00:39:30] [builder]       Installing marcel 1.0.4
+[2024-07-29 00:39:30] [builder]       Fetching mini_mime 1.1.5
+[2024-07-29 00:39:30] [builder]       Installing mini_mime 1.1.5
+[2024-07-29 00:39:30] [builder]       Fetching date 3.3.4
+[2024-07-29 00:39:30] [builder]       Installing date 3.3.4 with native extensions
+[2024-07-29 00:39:31] [builder]       Fetching msgpack 1.7.2
+[2024-07-29 00:39:31] [builder]       Installing msgpack 1.7.2 with native extensions
+[2024-07-29 00:39:34] [builder]       Fetching coffee-script-source 1.12.2
+[2024-07-29 00:39:34] [builder]       Installing coffee-script-source 1.12.2
+[2024-07-29 00:39:34] [builder]       Fetching execjs 2.8.1
+[2024-07-29 00:39:34] [builder]       Installing execjs 2.8.1
+[2024-07-29 00:39:34] [builder]       Fetching stringio 3.1.0
+[2024-07-29 00:39:34] [builder]       Installing stringio 3.1.0 with native extensions
+[2024-07-29 00:39:36] [builder]       Fetching io-console 0.7.2
+[2024-07-29 00:39:36] [builder]       Installing io-console 0.7.2 with native extensions
+[2024-07-29 00:39:37] [builder]       Fetching webrick 1.8.1
+[2024-07-29 00:39:37] [builder]       Installing webrick 1.8.1
+[2024-07-29 00:39:37] [builder]       Fetching thor 1.3.1
+[2024-07-29 00:39:37] [builder]       Installing thor 1.3.1
+[2024-07-29 00:39:37] [builder]       Fetching ffi 1.16.3
+[2024-07-29 00:39:37] [builder]       Installing ffi 1.16.3 with native extensions
+[2024-07-29 00:39:39] [builder]       Fetching rb-fsevent 0.11.2
+[2024-07-29 00:39:39] [builder]       Installing rb-fsevent 0.11.2
+[2024-07-29 00:39:39] [builder]       Fetching pg 1.5.6
+[2024-07-29 00:39:39] [builder]       Installing pg 1.5.6 with native extensions
+[2024-07-29 00:39:39] [builder]       Fetching tilt 2.1.0
+[2024-07-29 00:39:39] [builder]       Installing tilt 2.1.0
+[2024-07-29 00:39:39] [builder]       Fetching turbolinks-source 5.2.0
+[2024-07-29 00:39:39] [builder]       Installing turbolinks-source 5.2.0
+[2024-07-29 00:39:39] [builder]       Fetching rack-session 2.0.0
+[2024-07-29 00:39:39] [builder]       Installing rack-session 2.0.0
+[2024-07-29 00:39:39] [builder]       Fetching rack-test 2.1.0
+[2024-07-29 00:39:39] [builder]       Installing rack-test 2.1.0
+[2024-07-29 00:39:39] [builder]       Fetching i18n 1.14.5
+[2024-07-29 00:39:39] [builder]       Installing i18n 1.14.5
+[2024-07-29 00:39:39] [builder]       Fetching tzinfo 2.0.6
+[2024-07-29 00:39:39] [builder]       Installing tzinfo 2.0.6
+[2024-07-29 00:39:39] [builder]       Fetching sprockets 4.2.0
+[2024-07-29 00:39:39] [builder]       Installing sprockets 4.2.0
+[2024-07-29 00:39:39] [builder]       Fetching websocket-driver 0.7.6
+[2024-07-29 00:39:39] [builder]       Installing websocket-driver 0.7.6 with native extensions
+[2024-07-29 00:39:40] [builder]       Fetching net-protocol 0.2.2
+[2024-07-29 00:39:40] [builder]       Installing net-protocol 0.2.2
+[2024-07-29 00:39:40] [builder]       Fetching nokogiri 1.16.5 (x86_64-linux)
+[2024-07-29 00:39:40] [builder]       Installing nokogiri 1.16.5 (x86_64-linux)
+[2024-07-29 00:39:40] [builder]       Fetching puma 6.4.2
+[2024-07-29 00:39:40] [builder]       Installing puma 6.4.2 with native extensions
+[2024-07-29 00:39:42] [builder]       Fetching coffee-script 2.4.1
+[2024-07-29 00:39:42] [builder]       Installing coffee-script 2.4.1
+[2024-07-29 00:39:42] [builder]       Fetching uglifier 4.2.0
+[2024-07-29 00:39:42] [builder]       Installing uglifier 4.2.0
+[2024-07-29 00:39:42] [builder]       Fetching psych 5.1.2
+[2024-07-29 00:39:42] [builder]       Installing psych 5.1.2 with native extensions
+[2024-07-29 00:39:44] [builder]       Fetching bootsnap 1.18.3
+[2024-07-29 00:39:44] [builder]       Installing bootsnap 1.18.3 with native extensions
+[2024-07-29 00:39:45] [builder]       Fetching rackup 2.1.0
+[2024-07-29 00:39:45] [builder]       Installing rackup 2.1.0
+[2024-07-29 00:39:45] [builder]       Fetching reline 0.5.7
+[2024-07-29 00:39:45] [builder]       Installing reline 0.5.7
+[2024-07-29 00:39:45] [builder]       Fetching turbolinks 5.2.1
+[2024-07-29 00:39:45] [builder]       Installing turbolinks 5.2.1
+[2024-07-29 00:39:45] [builder]       Fetching net-imap 0.4.11
+[2024-07-29 00:39:45] [builder]       Installing net-imap 0.4.11
+[2024-07-29 00:39:45] [builder]       Fetching net-pop 0.1.2
+[2024-07-29 00:39:45] [builder]       Installing net-pop 0.1.2
+[2024-07-29 00:39:45] [builder]       Fetching net-smtp 0.5.0
+[2024-07-29 00:39:45] [builder]       Installing net-smtp 0.5.0
+[2024-07-29 00:39:45] [builder]       Fetching loofah 2.22.0
+[2024-07-29 00:39:45] [builder]       Installing loofah 2.22.0
+[2024-07-29 00:39:45] [builder]       Fetching activesupport 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Installing activesupport 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Fetching rdoc 6.6.3.1
+[2024-07-29 00:39:45] [builder]       Installing rdoc 6.6.3.1
+[2024-07-29 00:39:45] [builder]       Fetching mail 2.8.1
+[2024-07-29 00:39:45] [builder]       Installing mail 2.8.1
+[2024-07-29 00:39:45] [builder]       Fetching rails-html-sanitizer 1.6.0
+[2024-07-29 00:39:45] [builder]       Installing rails-html-sanitizer 1.6.0
+[2024-07-29 00:39:45] [builder]       Fetching rails-dom-testing 2.2.0
+[2024-07-29 00:39:45] [builder]       Installing rails-dom-testing 2.2.0
+[2024-07-29 00:39:45] [builder]       Fetching globalid 1.2.1
+[2024-07-29 00:39:45] [builder]       Installing globalid 1.2.1
+[2024-07-29 00:39:45] [builder]       Fetching activemodel 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Installing activemodel 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Fetching irb 1.13.1
+[2024-07-29 00:39:45] [builder]       Installing irb 1.13.1
+[2024-07-29 00:39:45] [builder]       Fetching sdoc 2.6.1
+[2024-07-29 00:39:45] [builder]       Installing sdoc 2.6.1
+[2024-07-29 00:39:45] [builder]       Fetching actionview 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Installing actionview 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Fetching activejob 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Installing activejob 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Fetching activerecord 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Fetching actionpack 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Installing actionpack 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Installing activerecord 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Fetching jbuilder 2.12.0
+[2024-07-29 00:39:45] [builder]       Installing jbuilder 2.12.0
+[2024-07-29 00:39:45] [builder]       Fetching actioncable 7.1.3.2
+[2024-07-29 00:39:45] [builder]       Installing actioncable 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Fetching actionmailer 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Installing actionmailer 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Fetching railties 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Installing railties 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Fetching sprockets-rails 3.4.2
+[2024-07-29 00:39:46] [builder]       Installing sprockets-rails 3.4.2
+[2024-07-29 00:39:46] [builder]       Fetching activestorage 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Installing activestorage 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Fetching actionmailbox 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Installing actionmailbox 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Fetching actiontext 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Installing actiontext 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Fetching coffee-rails 5.0.0
+[2024-07-29 00:39:46] [builder]       Installing coffee-rails 5.0.0
+[2024-07-29 00:39:46] [builder]       Fetching rails 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Fetching jquery-rails 4.6.0
+[2024-07-29 00:39:46] [builder]       Installing rails 7.1.3.2
+[2024-07-29 00:39:46] [builder]       Installing jquery-rails 4.6.0
+[2024-07-29 00:39:46] [builder]       Fetching rb-inotify 0.10.1
+[2024-07-29 00:39:46] [builder]       Fetching sassc 2.4.0
+[2024-07-29 00:39:46] [builder]       Installing rb-inotify 0.10.1
+[2024-07-29 00:39:46] [builder]       Fetching listen 3.9.0
+[2024-07-29 00:39:46] [builder]       Installing listen 3.9.0
+[2024-07-29 00:39:46] [builder]       Installing sassc 2.4.0 with native extensions
+[2024-07-29 00:40:37] [builder]       Fetching sassc-rails 2.1.2
+[2024-07-29 00:40:37] [builder]       Installing sassc-rails 2.1.2
+[2024-07-29 00:40:37] [builder]       Fetching sass-rails 6.0.0
+[2024-07-29 00:40:37] [builder]       Installing sass-rails 6.0.0
+[2024-07-29 00:40:37] [builder]       Bundle complete! 13 Gemfile dependencies, 82 gems now installed.
+[2024-07-29 00:40:37] [builder]       Gems in the groups 'development' and 'test' were not installed.
+[2024-07-29 00:40:37] [builder]       Bundled gems are installed into `/layers/heroku_ruby/gems`
+[2024-07-29 00:40:37] [builder]             
+[2024-07-29 00:40:37] [builder]   - Done (1m 9s)
+[2024-07-29 00:40:37] [builder] - Setting default processes
+[2024-07-29 00:40:37] [builder]   - Running `bundle list` ... (0.168s)
+[2024-07-29 00:40:38] [builder]   - Detected rails app (`rails` gem found)
+[2024-07-29 00:40:38] [builder] - Rake assets install
+[2024-07-29 00:40:38] [builder]   - Detected rake (`rake` gem found, `Rakefile` found at `/workspace/Rakefile`)
+[2024-07-29 00:40:39] [builder]   - Running `bundle exec rake -P --trace` .... (1.720s)
+[2024-07-29 00:40:39] [builder]   - Compiling assets with cache (detected `rake assets:precompile` and `rake assets:clean` via `bundle exec rake -P`)
+[2024-07-29 00:40:39] [builder]   - Creating cache for /workspace/public/assets
+[2024-07-29 00:40:39] [builder]   - Creating cache for /workspace/tmp/cache/assets
+[2024-07-29 00:40:39] [builder]   - Running `bundle exec rake assets:precompile assets:clean --trace`
+[2024-07-29 00:40:39] [builder] 
+[2024-07-29 00:40:40] [builder]       ** Invoke assets:precompile (first_time)
+[2024-07-29 00:40:40] [builder]       ** Invoke assets:environment (first_time)
+[2024-07-29 00:40:40] [builder]       ** Execute assets:environment
+[2024-07-29 00:40:40] [builder]       ** Invoke environment (first_time)
+[2024-07-29 00:40:40] [builder]       ** Execute environment
+[2024-07-29 00:40:40] [builder]       ** Execute assets:precompile
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.036916 #1499]  INFO -- : Writing /workspace/public/assets/manifest-dad05bf766af0fe3d79dd746db3c1361c0583026cdf35d6a2921bccaea835331.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.037146 #1499]  INFO -- : Writing /workspace/public/assets/manifest-dad05bf766af0fe3d79dd746db3c1361c0583026cdf35d6a2921bccaea835331.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.037610 #1499]  INFO -- : Writing /workspace/public/assets/lang-logo-b6c7c4b6a37e9c2425ca4d54561010c0719870ae325c849de398499f1ab098a9.png
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.038103 #1499]  INFO -- : Writing /workspace/public/assets/application-9ced36c9568ebfd1053e04ba411af767274dfcccd9807c0989f8bd17ca5e8f5b.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.038567 #1499]  INFO -- : Writing /workspace/public/assets/application-9ced36c9568ebfd1053e04ba411af767274dfcccd9807c0989f8bd17ca5e8f5b.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.038953 #1499]  INFO -- : Writing /workspace/public/assets/welcome-27cfb9694c5e92d25d972c2b4a2d2e222ad088aef866823f772241c1db423402.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.039088 #1499]  INFO -- : Writing /workspace/public/assets/welcome-27cfb9694c5e92d25d972c2b4a2d2e222ad088aef866823f772241c1db423402.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.039236 #1499]  INFO -- : Writing /workspace/public/assets/widgets-27cfb9694c5e92d25d972c2b4a2d2e222ad088aef866823f772241c1db423402.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.039628 #1499]  INFO -- : Writing /workspace/public/assets/widgets-27cfb9694c5e92d25d972c2b4a2d2e222ad088aef866823f772241c1db423402.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.039783 #1499]  INFO -- : Writing /workspace/public/assets/application-776d900b9840362472b5b6b4afb9b798c78d53098a77b289b8bfc22c6d241913.css
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.039903 #1499]  INFO -- : Writing /workspace/public/assets/application-776d900b9840362472b5b6b4afb9b798c78d53098a77b289b8bfc22c6d241913.css.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.040296 #1499]  INFO -- : Writing /workspace/public/assets/scaffolds-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.041480 #1499]  INFO -- : Writing /workspace/public/assets/scaffolds-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.041911 #1499]  INFO -- : Writing /workspace/public/assets/theme-776d900b9840362472b5b6b4afb9b798c78d53098a77b289b8bfc22c6d241913.css
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.042366 #1499]  INFO -- : Writing /workspace/public/assets/theme-776d900b9840362472b5b6b4afb9b798c78d53098a77b289b8bfc22c6d241913.css.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.042776 #1499]  INFO -- : Writing /workspace/public/assets/welcome-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.043190 #1499]  INFO -- : Writing /workspace/public/assets/welcome-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.043587 #1499]  INFO -- : Writing /workspace/public/assets/widgets-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044006 #1499]  INFO -- : Writing /workspace/public/assets/widgets-04024382391bb910584145d8113cf35ef376b55d125bb4516cebeb14ce788597.css.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044152 #1499]  INFO -- : Writing /workspace/public/assets/actiontext-78de0ebeae470799f9ec25fd0e20ae2d931df88c2ff9315918d1054a2fca2596.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044262 #1499]  INFO -- : Writing /workspace/public/assets/actiontext-78de0ebeae470799f9ec25fd0e20ae2d931df88c2ff9315918d1054a2fca2596.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044403 #1499]  INFO -- : Writing /workspace/public/assets/actiontext.esm-328ef022563f73c1b9b45ace742bd21330da0f6bd6c1c96d352d52fc8b8857e5.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044511 #1499]  INFO -- : Writing /workspace/public/assets/actiontext.esm-328ef022563f73c1b9b45ace742bd21330da0f6bd6c1c96d352d52fc8b8857e5.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044646 #1499]  INFO -- : Writing /workspace/public/assets/trix-e17a480fcb4e30c8571f0fed42dc81de5faeef93755ca30fe9623eb3f5c709e5.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044753 #1499]  INFO -- : Writing /workspace/public/assets/trix-e17a480fcb4e30c8571f0fed42dc81de5faeef93755ca30fe9623eb3f5c709e5.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044885 #1499]  INFO -- : Writing /workspace/public/assets/trix-5552afe828fe79c41e53b9cc3616e9d7b8c2de1979ea62cbd663b88426ec41de.css
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.044986 #1499]  INFO -- : Writing /workspace/public/assets/trix-5552afe828fe79c41e53b9cc3616e9d7b8c2de1979ea62cbd663b88426ec41de.css.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.045147 #1499]  INFO -- : Writing /workspace/public/assets/activestorage-503a4fe23aabfbcb752dad255f01835904e6961d5f20d1de13987a691c27d9cd.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.045254 #1499]  INFO -- : Writing /workspace/public/assets/activestorage-503a4fe23aabfbcb752dad255f01835904e6961d5f20d1de13987a691c27d9cd.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.045389 #1499]  INFO -- : Writing /workspace/public/assets/activestorage.esm-b3f7f0a5ef90530b509c5e681c4b3ef5d5046851e5b70d57fdb45e32b039c883.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.045489 #1499]  INFO -- : Writing /workspace/public/assets/activestorage.esm-b3f7f0a5ef90530b509c5e681c4b3ef5d5046851e5b70d57fdb45e32b039c883.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.045656 #1499]  INFO -- : Writing /workspace/public/assets/actioncable-1c7f008c6deb7b55c6878be38700ff6bf56b75444a086fa1f46e3b781365a3ea.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.045910 #1499]  INFO -- : Writing /workspace/public/assets/actioncable-1c7f008c6deb7b55c6878be38700ff6bf56b75444a086fa1f46e3b781365a3ea.js.gz
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.046135 #1499]  INFO -- : Writing /workspace/public/assets/actioncable.esm-06609b0ecaffe2ab952021b9c8df8b6c68f65fc23bee728fc678a2605e1ce132.js
+[2024-07-29 00:40:41] [builder]       I, [2024-07-29T00:40:41.046646 #1499]  INFO -- : Writing /workspace/public/assets/actioncable.esm-06609b0ecaffe2ab952021b9c8df8b6c68f65fc23bee728fc678a2605e1ce132.js.gz
+[2024-07-29 00:40:41] [builder]       ** Invoke assets:clean (first_time)
+[2024-07-29 00:40:41] [builder]       ** Invoke assets:environment 
+[2024-07-29 00:40:41] [builder]       ** Execute assets:clean
+[2024-07-29 00:40:41] [builder]             
+[2024-07-29 00:40:41] [builder]   - Done (1.377s)
+[2024-07-29 00:40:41] [builder]   - Storing cache for /workspace/public/assets
+[2024-07-29 00:40:41] [builder]   - Storing cache for /workspace/tmp/cache/assets
+[2024-07-29 00:40:41] [builder] - Done (finished in 1m 15s)
+[2024-07-29 00:40:41] [builder] 
+[2024-07-29 00:40:41] [builder] [Discovering process types]
+[2024-07-29 00:40:41] [builder] Procfile declares types -> web
+[2024-07-29 00:40:41] ===> EXPORTING
+[2024-07-29 00:40:42] [exporter] Adding layer 'heroku/nodejs-engine:dist'
+[2024-07-29 00:40:44] [exporter] Adding layer 'heroku/nodejs-engine:node_runtime_metrics'
+[2024-07-29 00:40:44] [exporter] Adding layer 'heroku/nodejs-engine:web_env'
+[2024-07-29 00:40:44] [exporter] Adding layer 'heroku/ruby:bundler'
+[2024-07-29 00:40:44] [exporter] Adding layer 'heroku/ruby:cache_public_assets'
+[2024-07-29 00:40:44] [exporter] Adding layer 'heroku/ruby:cache_tmp_cache_assets'
+[2024-07-29 00:40:44] [exporter] Adding layer 'heroku/ruby:env_defaults'
+[2024-07-29 00:40:44] [exporter] Adding layer 'heroku/ruby:gems'
+[2024-07-29 00:40:45] [exporter] Adding layer 'heroku/ruby:ruby'
+[2024-07-29 00:40:46] [exporter] Adding layer 'buildpacksio/lifecycle:launch.sbom'
+[2024-07-29 00:40:46] [exporter] Adding 1/1 app layer(s)
+[2024-07-29 00:40:46] [exporter] Adding layer 'buildpacksio/lifecycle:launcher'
+[2024-07-29 00:40:46] [exporter] Adding layer 'buildpacksio/lifecycle:config'
+[2024-07-29 00:40:46] [exporter] Adding layer 'buildpacksio/lifecycle:process-types'
+[2024-07-29 00:40:46] [exporter] Adding label 'io.buildpacks.lifecycle.metadata'
+[2024-07-29 00:40:46] [exporter] Adding label 'io.buildpacks.build.metadata'
+[2024-07-29 00:40:46] [exporter] Adding label 'io.buildpacks.project.metadata'
+[2024-07-29 00:40:46] [exporter] Setting default process type 'web'
+[2024-07-29 00:40:46] [exporter] Saving my-image-name...
+[2024-07-29 00:40:54] [exporter] *** Images (64c8466e4954):
+[2024-07-29 00:40:54] [exporter]       my-image-name
+[2024-07-29 00:40:54] [exporter] Adding cache layer 'heroku/nodejs-engine:dist'
+[2024-07-29 00:40:54] [exporter] Adding cache layer 'heroku/ruby:bundler'
+[2024-07-29 00:40:54] [exporter] Adding cache layer 'heroku/ruby:cache_public_assets'
+[2024-07-29 00:40:54] [exporter] Adding cache layer 'heroku/ruby:cache_tmp_cache_assets'
+[2024-07-29 00:40:54] [exporter] Adding cache layer 'heroku/ruby:gems'
+[2024-07-29 00:40:54] [exporter] Adding cache layer 'heroku/ruby:ruby'
+[2024-07-29 00:40:55] Successfully built image 'my-image-name'
 ```
 <!-- STOP. This document is autogenerated. Do not manually modify. See the top of the doc for more details. -->
 
@@ -640,7 +640,7 @@ Verify that you see “Successfully built image my-image-name” at the end of t
 
 ```
 $ docker image ls --format "table {{.ID}}\t{{.Repository}}\t{{.Tag}}" | grep my-image-name
-2b2e80d08b52   my-image-name            latest
+64c8466e4954   my-image-name            latest
 ```
 <!-- STOP. This document is autogenerated. Do not manually modify. See the top of the doc for more details. -->
 
@@ -653,29 +653,29 @@ When you run `pack build` with a builder, each buildpack runs a detection script
 
 
 ```
-[2024-07-23 15:10:29] ===> DETECTING
-[2024-07-23 15:10:29] [detector] 3 of 5 buildpacks participating
-[2024-07-23 15:10:29] [detector] heroku/nodejs-engine 3.2.9
-[2024-07-23 15:10:29] [detector] heroku/ruby          3.0.0
-[2024-07-23 15:10:29] [detector] heroku/procfile      3.1.2
-[2024-07-23 15:10:29] ===> RESTORING
+[2024-07-29 00:39:23] ===> DETECTING
+[2024-07-29 00:39:23] [detector] 3 of 5 buildpacks participating
+[2024-07-29 00:39:23] [detector] heroku/nodejs-engine 3.2.9
+[2024-07-29 00:39:23] [detector] heroku/ruby          3.0.0
+[2024-07-29 00:39:23] [detector] heroku/procfile      3.1.2
+[2024-07-29 00:39:23] ===> RESTORING
 ```
 <!-- STOP. This document is autogenerated. Do not manually modify. See the top of the doc for more details. -->
 
 After the detect phase, each buildpack will execute. Buildpacks can inspect your project, install files to disk, run commands, write environment variables, [and more](https://buildpacks.io/docs/for-buildpack-authors/). You can see some examples of that in the output above. For example, the Ruby buildpack installs dependencies from the `Gemfile` automatically:
 
 ```
-[2024-07-23 15:10:33] [builder]   - Running `BUNDLE_BIN="/layers/heroku_ruby/gems/bin" BUNDLE_CLEAN="1" BUNDLE_DEPLOYMENT="1" BUNDLE_GEMFILE="/workspace/Gemfile" BUNDLE_PATH="/layers/heroku_ruby/gems" BUNDLE_WITHOUT="development:test" bundle install`
-[2024-07-23 15:10:33] [builder] 
-[2024-07-23 15:10:35] [builder]       Fetching gem metadata from https://rubygems.org/.........
-[2024-07-23 15:10:35] [builder]       Fetching rake 13.2.1
-[2024-07-23 15:10:35] [builder]       Installing rake 13.2.1
-[2024-07-23 15:10:35] [builder]       Fetching base64 0.2.0
-[2024-07-23 15:10:35] [builder]       Fetching bigdecimal 3.1.8
-[2024-07-23 15:10:35] [builder]       Fetching concurrent-ruby 1.2.3
-[2024-07-23 15:10:35] [builder]       Fetching connection_pool 2.4.1
-[2024-07-23 15:10:35] [builder]       Installing base64 0.2.0
-[2024-07-23 15:10:35] [builder]       Installing connection_pool 2.4.1
+[2024-07-29 00:39:28] [builder]   - Running `BUNDLE_BIN="/layers/heroku_ruby/gems/bin" BUNDLE_CLEAN="1" BUNDLE_DEPLOYMENT="1" BUNDLE_GEMFILE="/workspace/Gemfile" BUNDLE_PATH="/layers/heroku_ruby/gems" BUNDLE_WITHOUT="development:test" bundle install`
+[2024-07-29 00:39:28] [builder] 
+[2024-07-29 00:39:30] [builder]       Fetching gem metadata from https://rubygems.org/.........
+[2024-07-29 00:39:30] [builder]       Fetching rake 13.2.1
+[2024-07-29 00:39:30] [builder]       Installing rake 13.2.1
+[2024-07-29 00:39:30] [builder]       Fetching bigdecimal 3.1.8
+[2024-07-29 00:39:30] [builder]       Fetching base64 0.2.0
+[2024-07-29 00:39:30] [builder]       Fetching concurrent-ruby 1.2.3
+[2024-07-29 00:39:30] [builder]       Fetching connection_pool 2.4.1
+[2024-07-29 00:39:30] [builder]       Installing connection_pool 2.4.1
+[2024-07-29 00:39:30] [builder]       Installing base64 0.2.0
 ```
 <!-- STOP. This document is autogenerated. Do not manually modify. See the top of the doc for more details. -->
 
@@ -704,7 +704,7 @@ $ docker run -it --rm --env PORT=9292 -p 9292:9292 my-image-name
 [1] ! Running Puma in cluster mode with a single worker is often a misconfiguration.
 [1] ! Consider running Puma in single-mode (workers = 0) in order to reduce memory overhead.
 [1] ! Set the `silence_single_worker_warning` option to silence this warning message.
-[1] - Worker 0 (PID: 15) booted in 0.0s, phase: 0
+[1] - Worker 0 (PID: 14) booted in 0.0s, phase: 0
 ```
 <!-- STOP. This document is autogenerated. Do not manually modify. See the top of the doc for more details. -->
 
@@ -875,14 +875,14 @@ Status: Image is up to date for buildpacksio/lifecycle:0.20.0
 [detector] heroku/ruby          3.0.0
 [detector] heroku/procfile      3.1.2
 ===> RESTORING
-[restorer] Restoring metadata for "heroku/nodejs-engine:web_env" from app image
 [restorer] Restoring metadata for "heroku/nodejs-engine:dist" from app image
 [restorer] Restoring metadata for "heroku/nodejs-engine:node_runtime_metrics" from app image
-[restorer] Restoring metadata for "heroku/ruby:gems" from app image
+[restorer] Restoring metadata for "heroku/nodejs-engine:web_env" from app image
 [restorer] Restoring metadata for "heroku/ruby:ruby" from app image
 [restorer] Restoring metadata for "heroku/ruby:bundler" from app image
 [restorer] Restoring metadata for "heroku/ruby:cache_public_assets" from app image
 [restorer] Restoring metadata for "heroku/ruby:cache_tmp_cache_assets" from app image
+[restorer] Restoring metadata for "heroku/ruby:gems" from app image
 [restorer] Restoring data for "heroku/nodejs-engine:dist" from cache
 [restorer] Restoring data for "heroku/ruby:bundler" from cache
 [restorer] Restoring data for "heroku/ruby:cache_public_assets" from cache
@@ -924,11 +924,11 @@ Status: Image is up to date for buildpacksio/lifecycle:0.20.0
 [builder]   - Skipping `bundle install` (no changes found in /workspace/Gemfile, /workspace/Gemfile.lock, or user configured environment variables)
 [builder]   - ! HELP To force run `bundle install` set `HEROKU_SKIP_BUNDLE_DIGEST=1`
 [builder] - Setting default processes
-[builder]   - Running `bundle list` ... (0.178s)
+[builder]   - Running `bundle list` ... (0.180s)
 [builder]   - Detected rails app (`rails` gem found)
 [builder] - Rake assets install
 [builder]   - Detected rake (`rake` gem found, `Rakefile` found at `/workspace/Rakefile`)
-[builder]   - Running `bundle exec rake -P --trace` .... (1.487s)
+[builder]   - Running `bundle exec rake -P --trace` .... (1.374s)
 [builder]   - Compiling assets with cache (detected `rake assets:precompile` and `rake assets:clean` via `bundle exec rake -P`)
 [builder]   - Loading cache for /workspace/public/assets
 [builder]   - Loading cache for /workspace/tmp/cache/assets
@@ -944,10 +944,10 @@ Status: Image is up to date for buildpacksio/lifecycle:0.20.0
 [builder]       ** Invoke assets:environment 
 [builder]       ** Execute assets:clean
 [builder]             
-[builder]   - Done (0.984s)
+[builder]   - Done (0.910s)
 [builder]   - Storing cache for /workspace/public/assets
 [builder]   - Storing cache for /workspace/tmp/cache/assets
-[builder] - Done (finished in 2.861s)
+[builder] - Done (finished in 2.675s)
 [builder] 
 [builder] [Discovering process types]
 [builder] Procfile declares types -> web
@@ -973,7 +973,7 @@ Status: Image is up to date for buildpacksio/lifecycle:0.20.0
 [exporter] Adding label 'io.buildpacks.project.metadata'
 [exporter] Setting default process type 'web'
 [exporter] Saving my-image-name...
-[exporter] *** Images (e01554fa4d0a):
+[exporter] *** Images (825b40b30132):
 [exporter]       my-image-name
 [exporter] Adding cache layer 'heroku/python:pip-cache'
 [exporter] Adding cache layer 'heroku/python:python'
