@@ -1,5 +1,7 @@
 .idea/
 
+.DS_Store
+
 # rundoc github action
 .rundoc-workspace
 default.profraw

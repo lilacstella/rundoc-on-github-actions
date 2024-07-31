@@ -34,6 +34,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           branch: rundoc-update
+          delete-branch: true
           base: main
           commit-message: execute rundoc on ruby tutorial
           title: ${{ env.TITLE }}

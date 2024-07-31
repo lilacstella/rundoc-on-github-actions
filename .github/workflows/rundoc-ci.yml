@@ -1,0 +1,30 @@
+name: CI Test for doc/src Changes
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "tutorials/src/**"
+
+jobs:
+  test-rundoc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true # do run 'bundle install' and cache
+          working-directory: .rundoc-workspace
+
+      # [CONFIG] here for the path of what we want to generate
+      - uses: buildpacks/github-actions/setup-pack@v5.7.1
+      - run: bundle exec rundoc ../tutorials/src/ruby/rundoc.md --on-success-dir ../tutorials/output --on-failure-dir ../tutorials/fail --force
+        working-directory: .rundoc-workspace
+
+      - name: Command execution result
+        if: ${{ failure() }}
+        run: echo "rundoc execution failed, marking the test as failed."
