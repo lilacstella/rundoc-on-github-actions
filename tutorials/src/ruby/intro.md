@@ -6,5 +6,5 @@ At the end of this tutorial, you'll have a working [OCI image](https://openconta
 
 
 ```
-:::>> echo 'hi'
+:::>> $ echo 'hi'
 ```
